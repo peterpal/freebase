@@ -1,0 +1,39 @@
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.name>    "Firefox"@en    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.name>    "Mozilla Firefox"@fr    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.name>    "\ud30c\uc774\uc5b4\ud3ed\uc2a4"@ko    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "Mozilla Firebird"@en    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "Phoenix"@en    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "Mozilla Firefox"@en    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "Firefox"@nl    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "\u0e44\u0e1f\u0e23\u0e4c\u0e1f\u0e2d\u0e01\u0e0b\u0e4c"@th    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "FF"@en    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/common.topic.alias>   "\u0416\u0430\u0440-\u043b\u0438\u0441"@uk    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/common.topic>    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.software>    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.operating_system>    .
+<http://rdf.freebase.com/ns/m.01dyhm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.web_browser>    .
+<http://rdf.freebase.com/ns/common.topic>    <http://rdf.freebase.com/ns/type.object.name>    "Topic"@en    .
+<http://rdf.freebase.com/ns/computer.software>    <http://rdf.freebase.com/ns/type.object.name>    "Software"@en    .
+<http://rdf.freebase.com/ns/computer.operating_system>    <http://rdf.freebase.com/ns/type.object.name>    "Operating System"@en    .
+<http://rdf.freebase.com/ns/computer.web_browser>    <http://rdf.freebase.com/ns/type.object.name>    "Web browser"@en    .
+<http://rdf.freebase.com/ns/computer.web_browser>    <http://rdf.freebase.com/ns/type.object.name>    "Webov\xfd prohl\xed\u017ee\u010d"@cs    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.name>    "Ubuntu"@en    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/common.topic.alias>   "Ubuntu Linux"@en    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.software>    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.operating_system>    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/common.topic>    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/business.brand>    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/event.speech_topic>    .
+<http://rdf.freebase.com/ns/m.03x5qm>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/book.book_subject>    .
+<http://rdf.freebase.com/ns/business.brand>    <http://rdf.freebase.com/ns/type.object.name>    "Brand"@en    .
+<http://rdf.freebase.com/ns/event.speech_topic>    <http://rdf.freebase.com/ns/type.object.name>    "Speech topic"@en    .
+<http://rdf.freebase.com/ns/book.book_subject>    <http://rdf.freebase.com/ns/type.object.name>    "Literature Subject"@en    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.name>    "Linux kernel"@en    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.name>    "Linux"@sk    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/common.topic.alias>   "Linux"@en    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/common.topic.alias>   "Linuxov\xe9 j\xe1dro"@cs    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.software>    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/event.speech_topic>    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/common.topic>    .
+<http://rdf.freebase.com/ns/m.04pm6>    <http://rdf.freebase.com/ns/type.object.type>    <http://rdf.freebase.com/ns/computer.computing_platform>    .
+<http://rdf.freebase.com/ns/computer.computing_platform>    <http://rdf.freebase.com/ns/type.object.name>    "Computing Platform"@en    .

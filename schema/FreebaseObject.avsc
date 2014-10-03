@@ -1,0 +1,12 @@
+{
+	"namespace": "sk.stuba.fiit.xgalbavyo",
+	"type": "record",
+	"name": "FreebaseObject",
+	"fields":
+	[
+		{"name": "id", "type": "string"},
+		{"name": "name", "type": "string"},
+		{"name": "alias",  "type": [{"type": "array", "items": "string"}, "null"]},
+		{"name": "type",  "type": [{"type": "array", "items": "string"}, "null"]}
+	]
+}
