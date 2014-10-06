@@ -1,0 +1,19 @@
+<http://rdf.freebase.com/ns/m.04dly4>	<http://rdf.freebase.com/ns/martial_arts.martial_art.well_known_practitioner>	<http://rdf.freebase.com/ns/m.08193>	.
+<http://rdf.freebase.com/ns/m.082trs>	<http://rdf.freebase.com/ns/influence.influence_node.influenced>	<http://rdf.freebase.com/ns/m.08193>
+<http://rdf.freebase.com/ns/government.political_appointer>	<http://rdf.freebase.com/ns/type.type.instance>	<http://rdf.freebase.com/ns/m.08193>
+<http://rdf.freebase.com/ns/m.0n0gxg1>	<http://rdf.freebase.com/ns/education.education.student>	<http://rdf.freebase.com/ns/m.08193>
+<http://rdf.freebase.com/ns/m.021y87d>	<http://rdf.freebase.com/ns/business.employment_tenure.person>	<http://rdf.freebase.com/ns/m.08193>
+<http://rdf.freebase.com/ns/m.010r243f>	<http://rdf.freebase.com/ns/event.speech_or_presentation.speaker_s>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.079r1pl>	<http://rdf.freebase.com/ns/people.appointment.appointed_by>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.07fv9l0>	<http://rdf.freebase.com/ns/people.appointment.appointed_by>	<http://rdf.freebase.com/ns/m.02mjmr>
+<http://rdf.freebase.com/ns/m.0_sty2m>	<http://rdf.freebase.com/ns/award.award_honor.award_winner>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.0mzfpt0>	<http://rdf.freebase.com/ns/government.election_poll_score.subject>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.0wzl8h_>	<http://rdf.freebase.com/ns/government.government_position_held.appointed_by>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.04p44f6>	<http://rdf.freebase.com/ns/base.endorsements.newspaper_endorsement.endorsee>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.04w0p4t>	<http://rdf.freebase.com/ns/book.book_edition.author_editor>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.078_6x9>	<http://rdf.freebase.com/ns/people.appointment.appointed_by>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.07gt5kc>	<http://rdf.freebase.com/ns/people.appointment.appointed_by>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.07qvn18>	<http://rdf.freebase.com/ns/base.litcentral.person_full_name.person_topic>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.0hj91lf>	<http://rdf.freebase.com/ns/book.written_work.subjects>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.0m3l1bt>	<http://rdf.freebase.com/ns/government.election_poll_score.subject>	<http://rdf.freebase.com/ns/m.02mjmr>	.
+<http://rdf.freebase.com/ns/m.0nczv2n>	<http://rdf.freebase.com/ns/film.personal_film_appearance.person>	<http://rdf.freebase.com/ns/m.02mjmr>	.
