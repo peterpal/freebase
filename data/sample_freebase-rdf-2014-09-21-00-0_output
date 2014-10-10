@@ -45,8 +45,6 @@
 		<type object_ref="people.person" />
 	</object>
 
-	<http://rdf.freebase.com/ns/m.011ffbq1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/freebase.review_flag>       .
-
 	<object id="m.011ffbq1">
 		<type object_ref="freebase.review_flag" />
 	</object>
