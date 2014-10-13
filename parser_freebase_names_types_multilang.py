@@ -1,8 +1,21 @@
 # -*- coding: utf-8 -*-
+#
+#------------------------------------------------------------------------------------------------------------
+#
+# 	Vzhladavanie informacii, 2014/15
+#
+# 	Zadanie projektu:
+# 		Parsovanie typov s nazvami v roznych jazykoch - obmedzenie na 1 alebo N definovanych jazykov.
+# 
+# 	Autor:
+#		Lukáš Gregorovič, 64341
+#
+# -----------------------------------------------------------------------------------------------------------
 
 import string
 import json
 import jsonpickle
+import unittest
 
 
 _debug = 0
@@ -27,6 +40,12 @@ class Name:
 	def __init__(self, name, lang):
 		self.name = name
 		self.lang = lang
+
+	def getName(self):
+		return self.name
+
+	def getLang(self):
+		return self.lang
 
 	def to_JSON(self):
 		return json.dumps(self, default=lambda o: o.__dict__, sort_keys=False, indent=4)
@@ -53,6 +72,29 @@ class ParsedObject:
 		self.types.append(type)
 		if(_debug):
 			print "_debug: Adding type: " + type
+
+	def getId(self):
+		return self.id
+
+	def getNames(self):
+		return self.names
+
+	def getTypes(self):
+		return self.types
+
+	def hasName(self, name, lang):
+		for n in self.names:
+			if(name == n.getName()):
+				if(lang == "en"):
+					return True
+
+		return False
+
+	def hasType(self, type):
+		if type in self.types:
+			return True
+
+		return False
 
 	def to_JSON(self):
 		return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
@@ -87,12 +129,12 @@ def parseFile(filename):
 			if(parsedLine[0] != lastId):
 				# reading a new object
 
+				#todo: write old objects to file (batch)
 				parsedObjects.append(ParsedObject(parsedLine[0]))
 				lastId = parsedLine[0]
 
 		
 			# reading the same object (last)
-			
 			if(parsedLine[1] == "type.object.name"):
 				nameLang = parsedLine[2].split("@")
 
@@ -142,15 +184,75 @@ def parseLine(line):
 filename = "data/sample_freebase-rdf-2014-09-28-00-00"
 #filename = "data/tmp/names_types_2"
 
-
-
+parsedObjects = parseFile(filename)
 freebase = FreebaseObjects()
-freebase.setObjects(parseFile(filename))
+freebase.setObjects(parsedObjects)
 
-print "end"
-
-
-f = open("data/output", 'w')
+f = open("data/tmp/output", 'w')
 f.write(freebase.to_JSON())
 
 f.close()
+
+
+#unittest
+class TestUM(unittest.TestCase):
+
+	def setUp(self):
+		self.parsedObjects = parseFile(filename)
+
+
+	def test_number_of_parsed_objects(self):
+		self.assertEqual(len(self.parsedObjects),2)   
+
+
+	# first object  
+
+	def test_first_object_has_id(self):
+		self.assertEqual(self.parsedObjects[0].getId(), "m.0fw3zk3")  
+
+	def test_first_object_has_name(self):
+		self.assertTrue(self.parsedObjects[0].hasName("HOLE IN THE WALL", "en"))
+		self.assertFalse(self.parsedObjects[0].hasName("HOLE IN THE WALL", "sk"))
+
+	def test_first_object_has_N_names(self):
+		self.assertEqual(len(self.parsedObjects[0].getNames()),1)
+
+	def test_first_object_has_N_types(self):
+		self.assertEqual(len(self.parsedObjects[0].getTypes()),5)
+
+	def test_first_object_has_types(self):
+		self.assertTrue(self.parsedObjects[0].hasType("music.album"))
+		self.assertTrue(self.parsedObjects[0].hasType("base.type_ontology.inanimate"))
+		self.assertTrue(self.parsedObjects[0].hasType("common.topic"))
+		self.assertTrue(self.parsedObjects[0].hasType("base.type_ontology.abstract"))
+		self.assertTrue(self.parsedObjects[0].hasType("base.type_ontology.non_agent"))
+
+
+	# second object
+
+	def test_first_object_has_id(self):
+		self.assertEqual(self.parsedObjects[1].getId(), "m.0fw49kg")  
+
+	def test_second_object_has_name(self):
+		self.assertTrue(self.parsedObjects[1].hasName("Kind of Blue", "en"))
+
+	def test_second_object_has_N_names(self):
+		self.assertEqual(len(self.parsedObjects[1].getNames()),1)
+
+	def test_second_object_has_N_types(self):
+		self.assertEqual(len(self.parsedObjects[1].getTypes()),5)
+
+	def test_second_object_has_types(self):
+		self.assertTrue(self.parsedObjects[1].hasType("common.topic"))
+		self.assertTrue(self.parsedObjects[1].hasType("base.type_ontology.non_agent"))
+		self.assertTrue(self.parsedObjects[1].hasType("music.recording"))
+		self.assertTrue(self.parsedObjects[1].hasType("music.single"))
+		self.assertTrue(self.parsedObjects[1].hasType("base.type_ontology.abstract"))
+
+
+if __name__ == '__main__':
+    unittest.main()
+
+
+
+
