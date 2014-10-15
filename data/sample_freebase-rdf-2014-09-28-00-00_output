@@ -1,0 +1,36 @@
+{
+	"freebase": [
+		{
+			"id": "m.0fw3zk3",
+			"names": [
+				{
+					"name": "HOLE IN THE WALL",
+					"lang": "en"
+				}
+			],
+			"types": [
+				"music.album",
+				"base.type_ontology.inanimate",
+				"common.topic",
+				"base.type_ontology.abstract",
+				"base.type_ontology.non_agent"
+			]
+		},
+		{
+			"id": "m.0fw49kg",
+			"names": [
+				{
+					"name": "Kind of Blue",
+					"lang": "en"
+				}
+			],
+			"types": [
+				"common.topic",
+				"base.type_ontology.non_agent",
+				"music.recording",
+				"music.single",
+				"base.type_ontology.abstract"
+			]
+		}
+	]	
+}
