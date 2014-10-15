@@ -1,0 +1,108 @@
+<objects>
+	
+	<object id="m.011fdsb9">
+		<type object_ref="film.performance" />
+	</object>
+
+	<object id="m.011fdvnf" name="Good Friday nominal occurrence (Valais, 2007)">
+		<type object_ref="base.schemastaging.holiday_occurrence" />
+		<type object_ref="common.topic" />
+	</object>
+	
+	<object id="m.11fdvnf" name="Werner Riedl">
+		<type object_ref="base.type_ontology.physically_instantiable" />
+		<type object_ref="common.topic" />
+		<type object_ref="base.type_ontology.animate" />
+		<type object_ref="base.type_ontology.agent" />
+		<type object_ref="music.group_member" />
+		<type object_ref="people.person" />
+	</object>
+
+	<object id="m.011ff5wg">
+		<type object_ref="film.performance" />
+	</object>
+
+	<object id="m.011ff609">
+		<type object_ref="film.performance" />
+	</object>
+
+	<object id="m.011ff78s" name="Jessica Fuerst">
+		<type object_ref="film.film_costumer_designer" />
+		<type object_ref="base.type_ontology.physically_instantiable" />
+		<type object_ref="common.topic" />
+		<type object_ref="base.type_ontology.agent" />
+		<type object_ref="people.person" />
+		<type object_ref="base.type_ontology.animate" />
+		<alias value="Virginia 'Ginny' Van Jones">
+	</object>
+		
+	<object id="m.011ff8ng" name="Adam De Micco">
+		<type object_ref="base.type_ontology.agent" />
+		<type object_ref="base.type_ontology.animate" />
+		<type object_ref="music.group_member" />
+		<type object_ref="base.type_ontology.physically_instantiable" />
+		<type object_ref="common.topic" />
+		<type object_ref="people.person" />
+	</object>
+
+	<object id="m.011ffbq1">
+		<type object_ref="freebase.review_flag" />
+	</object>
+
+	<object id="m.011fffwz" name="Patricio Barraza">
+		<alias value="Patricio \"Pato\" Barraza">
+		<type object_ref="common.topic" />
+		<type object_ref="people.person" />
+		<alias value="Pato Barraza">
+		<type object_ref="base.type_ontology.agent" />
+		<type object_ref="base.type_ontology.animate" />
+		<type object_ref="music.group_member" />
+		<type object_ref="base.type_ontology.physically_instantiable" />
+	</object>
+
+	<object id="m.011ffk02">
+		<type object_ref="sports.sports_team_roster" />
+	</object>
+
+	<object id="m.011fflfh">
+		<type object_ref="film.performance" />
+	</object>
+
+	<object id="m.011ffqgh">
+		<type object_ref="film.film_regional_release_date" />
+	</object>
+
+	<object id="m.011ffrtl">
+		<type object_ref="film.film_cut>" />
+	</object>
+
+	<object id="m.011ffsg" name="Dom styr våra liv">
+		<type object_ref="music.recording" />
+		<type object_ref="base.type_ontology.abstract" />
+		<type object_ref="base.type_ontology.non_agent" />
+		<alias value="Dom styr vara liv">
+		<type object_ref="common.topic" />
+	</object>
+
+	<object id="m.011ffst_" name="Policeman #1">
+		<type object_ref="film.film_character" />
+		<type object_ref="fictional_universe.fictional_character" />
+		<type object_ref="base.type_ontology.non_agent" />
+		<type object_ref="base.type_ontology.abstract" />
+		<type object_ref="common.topic" />
+	</object>
+	
+	<object id="m.011ffyfs">
+		<type object_ref="film.performance>" />
+	</object>
+	
+	<object id="m.011fg2c9" name="Sumathi">
+		<type object_ref="base.type_ontology.agent" />
+		<type object_ref="common.topic" />
+		<type object_ref="film.actor" />
+		<type object_ref="base.type_ontology.animate" />
+		<type object_ref="base.type_ontology.physically_instantiable" />
+		<type object_ref="people.person" />
+	</object>
+
+</objects>
