@@ -1,0 +1,55 @@
+<http://rdf.freebase.com/ns/m.0tk5607>  <http://rdf.freebase.com/ns/common.topic.alias> "The Older Patrick"@en  .
+<http://rdf.freebase.com/ns/m.0tk5607>  <http://rdf.freebase.com/ns/common.topic.alias> "Patrick Dennis - older"@en     .
+<http://rdf.freebase.com/ns/m.0tk5607>  <http://rdf.freebase.com/ns/common.topic.alias> "Patrick Dennis - younger"@en   .
+<http://rdf.freebase.com/ns/m.0tk5607>  <http://rdf.freebase.com/ns/common.topic.alias> "Young Patrick"@en   
+<http://rdf.freebase.com/ns/m.02ldjzb>  <http://rdf.freebase.com/ns/type.object.name>   "8 + [144420981,144430475]"@en  .
+<http://rdf.freebase.com/ns/m.02ldr06>  <http://rdf.freebase.com/ns/type.object.name>   "5 + [74016766,74052868]"@en    .
+<http://rdf.freebase.com/ns/m.02ldt9q>  <http://rdf.freebase.com/ns/type.object.name>   "7 - [27151640,27153892]"@en    .
+<http://rdf.freebase.com/ns/m.02ldxcl>  <http://rdf.freebase.com/ns/common.topic.alias> "isocitrate dehydrogenase, mitochondrial"@en    .
+<http://rdf.freebase.com/ns/m.02ldxcl>  <http://rdf.freebase.com/ns/common.topic.alias> "oxalosuccinate decarboxylase"@en       .
+<http://rdf.freebase.com/ns/m.02ldxcl>  <http://rdf.freebase.com/ns/type.object.name>   "isocitrate dehydrogenase 2 (NADP+), mitochondrial"@en  .
+<http://rdf.freebase.com/ns/m.02ldxcl>  <http://rdf.freebase.com/ns/common.topic.alias> "NADP+-specific ICDH"@en        .
+<http://rdf.freebase.com/ns/m.02lf0lr>  <http://rdf.freebase.com/ns/type.object.name>   "1 - [65072795,65124573]"@en    .
+<http://rdf.freebase.com/ns/m.02lf0s8>  <http://rdf.freebase.com/ns/type.object.name>   "17 - [37164389,37196474]"@en   .
+<http://rdf.freebase.com/ns/m.02lf44x>  <http://rdf.freebase.com/ns/type.object.name>   "1 - [207854837,207892442]"@en  .
+<http://rdf.freebase.com/ns/m.02lf_zk>  <http://rdf.freebase.com/ns/type.object.name>   "phosphogluconate dehydrogenase-like 1"@en      .
+<http://rdf.freebase.com/ns/m.02lfg27>  <http://rdf.freebase.com/ns/type.object.name>   "16 - [15704492,15858387]"@en   .
+<http://rdf.freebase.com/ns/m.02lfkc3>  <http://rdf.freebase.com/ns/common.topic.alias> "voltage-gated calcium channel subunit alpha Cav1.1"@en .
+<http://rdf.freebase.com/ns/m.02lfkc3>  <http://rdf.freebase.com/ns/common.topic.alias> "calcium channel, L type, alpha 1 polypeptide, isoform 3 (skeletal muscle, hypokalemic periodic paralysis)"@en  .
+<http://rdf.freebase.com/ns/m.02lfkc3>  <http://rdf.freebase.com/ns/common.topic.alias> "dihydropyridine-sensitive L-type calcium channel alpha-1 subunit"@en   .
+<http://rdf.freebase.com/ns/m.02lfkc3>  <http://rdf.freebase.com/ns/type.object.name>   "calcium channel, voltage-dependent, L type, alpha 1S subunit"@en       .
+<http://rdf.freebase.com/ns/m.02lfkc3>  <http://rdf.freebase.com/ns/common.topic.alias> "dihydropyridine receptor"@en   .
+<http://rdf.freebase.com/ns/m.02lflvg>  <http://rdf.freebase.com/ns/type.object.name>   "6 + [20510376,20601920]"@en    .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.notable_for>   <http://rdf.freebase.com/ns/g.12596b0jg>        .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/key/en>        "gpx1"  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.membership>    <http://rdf.freebase.com/ns/m.02m5k9_>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.locus> <http://rdf.freebase.com/ns/m.02lfmzf>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "GSHPx-1"@en    .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.chromosome>    <http://rdf.freebase.com/ns/m.02kwgh9>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "Cellular GPx"@en       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/biology.gene>       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/type.object.key>    "/en/gpx1"      .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.membership>    <http://rdf.freebase.com/ns/m.02m5kbc>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.alternate_symbol>      "MGC88245"      .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "Gpx1"@en       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.alternate_symbol>      "GSHPX1"        .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "GPx-1"@en      .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "Glutathione peroxidase 1"@en   .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/type.object.name>   "glutathione peroxidase 1"@en   .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/type.object.key>    "/en/glutathione_peroxidase_1"  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.membership>    <http://rdf.freebase.com/ns/m.02m5k97>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "cellular glutathione peroxidase"@en    .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.genome>        <http://rdf.freebase.com/ns/m.0bsdc>    .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "CGPx"@en       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.notable_types> <http://rdf.freebase.com/ns/m.02kl67z>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.ncbi_id>       "2876"  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.membership>    <http://rdf.freebase.com/ns/m.02m5k9m>  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.alternate_symbol>      "MGC14399"      .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/biology.gene.symbol>        "GPX1"  .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "Glutathione peroxidase"@en     .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/ns/common.topic.alias> "Gpx"@en        .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://rdf.freebase.com/key/en>        "glutathione_peroxidase_1"      .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://www.w3.org/2000/01/rdf-schema#label>    "glutathione peroxidase 1"@en   .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/biology.gene>       .
+<http://rdf.freebase.com/ns/m.02lfmz1>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/common.topic> 

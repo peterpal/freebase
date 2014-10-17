@@ -1,0 +1,15 @@
+<root>
+	<people>
+		<person>
+	    		<persName>Arthur Wayle</persName>
+			<dateOfBirth>1983-01-04</dateOfBirth>
+			<dateOfDeath>2007-08-06</dateOfDeath>
+	   	</person>
+	   	<person>
+	    		<persName>Abraham Lincoln</persName>
+			<dateOfBirth>1603-03-07</dateOfBirth>
+			<dateOfDeath>1638-06-18</dateOfDeath>
+	   	</person>
+	</people>
+	<result>No</result>
+</root>
