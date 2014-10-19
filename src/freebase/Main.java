@@ -11,22 +11,23 @@ package freebase;
 import java.io.*;
 import java.util.regex.*;
 import java.util.zip.GZIPInputStream;
+import java.util.zip.ZipException;
 
 public class Main {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		
-		InputStream fileStream;
+	public static void parseDump(String freebaseDumpRDFPath, String outputFilePath) {
+		InputStream fileStream, gzipStream;
 		try {
-			
-			String freebaseDumpRDF = new String("/Volumes/SSD_SAMSUNG_840/freebase-rdf-2014-10-12-00-00.gz");
-			
-			fileStream = new FileInputStream(freebaseDumpRDF);
+			fileStream = new FileInputStream(freebaseDumpRDFPath);
 			//fileStream = new FileInputStream("./data/sample_artists_awards_tracks_data.txt");
-			InputStream gzipStream = new GZIPInputStream(fileStream);
+			try {
+				gzipStream = new GZIPInputStream(fileStream);
+			}
+			catch (ZipException e){
+				// if freebaseDumpRDFPath isn't gzipped, use gzipStream as fileStream
+				gzipStream = fileStream;
+			}
+			
 			Reader decoder = new InputStreamReader(gzipStream, "UTF-8");
 			BufferedReader bufferedGzipReader = new BufferedReader(decoder);
 			
@@ -51,7 +52,7 @@ public class Main {
 			int lineCounter = 0, milionCounter = 0;
 			String readLine, subject = ".", object = ".", predicate = ".";
 			Matcher match1, match2;
-			FileWriter outputFileWriter = new FileWriter ("./data/linner-stefan/output.txt", false);	//don't append
+			FileWriter outputFileWriter = new FileWriter (outputFilePath, false);	//don't append
 
 			while ( (readLine = bufferedGzipReader.readLine()) != null ){
 				lineCounter++;
@@ -84,7 +85,7 @@ public class Main {
 				if (lineCounter == 1000000){	// 1.000.000
 					milionCounter++;
 					lineCounter = 0;
-					System.out.println(String.format("%d milion(s) of 1.9 bilion records processed...", milionCounter));
+					System.out.println(String.format("%d milion(s) of 2.8 bilion records processed...", milionCounter));
 				}
 			}
 			
@@ -94,6 +95,17 @@ public class Main {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		String freebaseDumpRDFPath = new String("/Volumes/SSD_SAMSUNG_840/freebase-rdf-2014-10-12-00-00.gz");
+		String outputFilePath = new String ("./data/linner-stefan/output.txt");
+		
+		parseDump(freebaseDumpRDFPath, outputFilePath);
 	}
 
 }
