@@ -1,0 +1,9 @@
+{"namespace": "sk.stuba.fiit.freebase.hadoop",
+ "type": "record",
+ "name": "Triplet",
+ "fields": [
+     {"name": "subject", "type": "string"},
+     {"name": "predicat",  "type" : "string" },
+     {"name": "object", "type" : "string" }
+ ]
+}
