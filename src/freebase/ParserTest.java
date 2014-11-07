@@ -15,10 +15,10 @@ import org.junit.Test;
  * @author stefanlinner
  *
  */
-public class MainTest {
+public class ParserTest {
 
 	/**
-	 * Test method for {@link freebase.Main#parseDump(java.lang.String, java.lang.String)}.
+	 * Test method for {@link freebase.Parser#parseDump(java.lang.String, java.lang.String)}.
 	 */
 	@Test
 	public void testParseDump() {
@@ -26,7 +26,7 @@ public class MainTest {
 		String sampleOutputFilePath = new String("./data/sample_artists_awards_tracks_parsed.txt");
 		String testsampleOutputFilePath = new String("./data/sample_artists_awards_tracks_parsed_test.txt");
 		
-		Main.parseDump(sampleDumpRDFPath, testsampleOutputFilePath);
+		Parser.parseDump(sampleDumpRDFPath, testsampleOutputFilePath);
 		
 		byte[] encoded;
 		try {

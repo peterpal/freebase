@@ -13,13 +13,18 @@ import java.util.regex.*;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.ZipException;
 
-public class Main {
+import com.sun.org.apache.bcel.internal.generic.Type;
 
+public class Parser {
+	
 	public static void parseDump(String freebaseDumpRDFPath, String outputFilePath) {
 		InputStream fileStream, gzipStream;
+		BufferedReader bufferedGzipReader;
+		FileWriter outputFileWriter;
+		
 		try {
 			fileStream = new FileInputStream(freebaseDumpRDFPath);
-			//fileStream = new FileInputStream("./data/sample_artists_awards_tracks_data.txt");
+			
 			try {
 				gzipStream = new GZIPInputStream(fileStream);
 			}
@@ -29,7 +34,7 @@ public class Main {
 			}
 			
 			Reader decoder = new InputStreamReader(gzipStream, "UTF-8");
-			BufferedReader bufferedGzipReader = new BufferedReader(decoder);
+			bufferedGzipReader = new BufferedReader(decoder);
 			
 			String namespacesForID = new String("(?<predicate>"
 					+ "(music\\.artist\\.track)"
@@ -52,7 +57,7 @@ public class Main {
 			int lineCounter = 0, milionCounter = 0;
 			String readLine, subject = ".", object = ".", predicate = ".";
 			Matcher match1, match2;
-			FileWriter outputFileWriter = new FileWriter (outputFilePath, false);	//don't append
+			outputFileWriter = new FileWriter (outputFilePath, false);	//don't append
 
 			while ( (readLine = bufferedGzipReader.readLine()) != null ){
 				lineCounter++;
@@ -103,9 +108,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		String freebaseDumpRDFPath = new String("/Volumes/SSD_SAMSUNG_840/freebase-rdf-2014-10-12-00-00.gz");
-		String outputFilePath = new String ("./data/linner-stefan/output.txt");
+		String parsedDumpFilePath = new String ("./data/linner-stefan/parsed_dump.txt");
 		
-		parseDump(freebaseDumpRDFPath, outputFilePath);
+		parseDump(freebaseDumpRDFPath, parsedDumpFilePath);
 	}
 
 }
