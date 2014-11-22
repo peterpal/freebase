@@ -1,7 +1,7 @@
 /**
  * 
  */
-package freebase;
+package src.artistGenresAwardsTracks.utils;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -25,15 +25,15 @@ public class Splitter {
 			Reader decoder = new InputStreamReader(fileStream, "UTF-8");
 			BufferedReader bufferedReader = new BufferedReader(decoder);
 			
-			String pattern1 = new String("^(?<subject>[^\\t]+)\\t(?<predicate>[^\\t]+)\\t(?<object>[^\\t]+)$");
-			String pattern2 = new String("^.+\\.(?<type>[\\w]+)$");	//Original: ^.+\.([\w]+)$
+			String pattern1 = "^(?<subject>[^\\t]+)\\t(?<predicate>[^\\t]+)\\t(?<object>[^\\t]+)$";
+			String pattern2 = "^.+\\.(?<type>[\\w]+)$";	//Original: ^.+\.([\w]+)$
 
 			
 			Pattern pat1 = Pattern.compile(pattern1);
 			Pattern pat2 = Pattern.compile(pattern2);
 			
 			int lineCounter = 0, milionCounter = 0;
-			String readLine, subject = ".", object = ".", predicate = ".", type = ".";
+			String readLine, subject = ".", object = ".", predicate = ".", type = ".", lastAward = ".";
 			Matcher match1, match2;
 			FileWriter outputFileWriter_NAMES = new FileWriter(outputDirPath + "object_ID-name.txt", false);	//don't append
 			FileWriter outputFileWriter_GENRES = new FileWriter(outputDirPath + "artist_ID-genre_ID.txt", false);	//don't append
@@ -62,7 +62,11 @@ public class Splitter {
 					outputFileWriter_GENRES.write(subject + "\t" + object + "\n");
 				}
 				else if (type.equals("awards_won")){
-					outputFileWriter_AWARDS.write(subject + "\n");
+					//store only unique values...values are already sorted
+					if (!subject.equals(lastAward)) {
+						lastAward = subject;
+						outputFileWriter_AWARDS.write(subject + "\n");
+					}
 				}
 				else if (type.equals("track")){
 					outputFileWriter_TRACKS.write(subject + "\t" + object + "\n");
@@ -92,10 +96,10 @@ public class Splitter {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String parsedDumpFilePath = new String ("./data/linner-stefan/parsed_dump.txt");
+		String parsedDumpFilePath = "./data/artists_genres_awards_tracks/parsed_files/parsed_dump.txt";
 		
 		//output directory path must be with trailing slash
-		String splitDir = new String("./data/linner-stefan/");
+		String splitDir = "./data/artists_genres_awards_tracks/parsed_files/";
 		splitParsedDump(parsedDumpFilePath, splitDir);
 	}
 

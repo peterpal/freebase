@@ -1,22 +1,40 @@
 /**
  * 
  */
-package freebase;
+package src.artistGenresAwardsTracks.utils;
 
-/**
- * @author stefanlinner
- *
- */
+
 
 import java.io.*;
 import java.util.regex.*;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.ZipException;
 
-import com.sun.org.apache.bcel.internal.generic.Type;
-
+/**
+ * This class provides only one method for parsing original Freebase data dump (see https://www.freebase.com/). 
+ * Only necessary tripplets are extracted, in the lighter form and saved to output file.
+ * 
+ * @author stefanlinner
+ *
+ */
 public class Parser {
 	
+	/**
+	 * Freebase data dump in RDF format is parsed into one output file using regular expressions. Dump is
+	 * searched for triples containing only these four namespaces:
+	 * 
+	 * 	music.artist.track, 
+	 * 	award.award_winner.awards_won,
+	 * 	music.artist.genre,
+	 * 	type.object.name
+	 * 
+	 * Unnecessary URLs and other redundant characters are stripped. 
+	 * Output file is wiped before storing any information.
+	 * Method outputs also information about every one million of records processed.
+	 * 
+	 * @param freebaseDumpRDFPath path to g-zipped Freebase dump file in RDF format
+	 * @param outputFilePath arbitrary text file path
+	 */
 	public static void parseDump(String freebaseDumpRDFPath, String outputFilePath) {
 		InputStream fileStream, gzipStream;
 		BufferedReader bufferedGzipReader;
@@ -90,7 +108,7 @@ public class Parser {
 				if (lineCounter == 1000000){	// 1.000.000
 					milionCounter++;
 					lineCounter = 0;
-					System.out.println(String.format("%d milion(s) of 2.8 bilion records processed...", milionCounter));
+					System.out.println(String.format("%d milion(s) of ~2.8 bilion records processed...", milionCounter));
 				}
 			}
 			
@@ -103,12 +121,15 @@ public class Parser {
 	}
 	
 	/**
+	 * Main method, which contains input and output file paths and then calls one and only 
+	 * method parseDump(...) with paths as arguments.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
 		String freebaseDumpRDFPath = new String("/Volumes/SSD_SAMSUNG_840/freebase-rdf-2014-10-12-00-00.gz");
-		String parsedDumpFilePath = new String ("./data/linner-stefan/parsed_dump.txt");
+		String parsedDumpFilePath = new String ("./data/artists_genres_awards_tracks/parsed_files/parsed_dump.txt");
 		
 		parseDump(freebaseDumpRDFPath, parsedDumpFilePath);
 	}

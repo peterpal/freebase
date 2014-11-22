@@ -1,7 +1,7 @@
 /**
  * 
  */
-package freebase;
+package test.artistsGenresAwardsTracks;
 
 import static org.junit.Assert.*;
 
@@ -11,6 +11,8 @@ import java.nio.file.Paths;
 
 import org.junit.Test;
 
+import src.artistGenresAwardsTracks.utils.Parser;
+
 /**
  * @author stefanlinner
  *
@@ -18,7 +20,7 @@ import org.junit.Test;
 public class ParserTest {
 
 	/**
-	 * Test method for {@link freebase.Parser#parseDump(java.lang.String, java.lang.String)}.
+	 * Test method for {@link src.artistGenresAwardsTracks.utils.Parser#parseDump(java.lang.String, java.lang.String)}.
 	 */
 	@Test
 	public void testParseDump() {
