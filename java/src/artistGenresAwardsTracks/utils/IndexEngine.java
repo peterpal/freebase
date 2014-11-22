@@ -23,8 +23,26 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
+/**
+ * This class contains methods for indexing parsed and split files 
+ * (see {@link src.artistGenresAwardsTracks.utils.Parser Parser} and {@link src.artistGenresAwardsTracks.utils.Splitter Splitter}).
+ * Used index engine is Apache Lucene, version 4.10.2 (http://lucene.apache.org).
+ * 
+ * @author stefanlinner
+ *
+ */
 public class IndexEngine {
 
+	/**
+	 * Creates index from file "object_ID-name.txt" in directory "index-names". 
+	 * Every line in this file is modeled as one Apache Lucene document, which is added to the index.
+	 * One document contains two fields: <br />
+	 * <br />
+	 * object_ID - indexed, not analyzed, not stored <br />
+	 * name - not indexed, not analyzed, stored <br />
+	 * <br />
+	 * This way, it's possible to search for specific object_ID and get its assigned name.
+	 */
 	public static void indexNames(){
 		String indexDirPath = "./data/artists_genres_awards_tracks/index-names/";
 		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/object_ID-name.txt";
@@ -77,7 +95,15 @@ public class IndexEngine {
 			e.printStackTrace();
 		}
 	}
-	
+	/**
+	 * Creates index from file "awarded_artist_ID.txt" in directory "index-awards". 
+	 * This file is modeled as one Apache Lucene document, which is added to the index.
+	 * Document contains only one field: <br />
+	 * <br />
+	 * content - indexed, analyzed, not stored <br />
+	 * <br />
+	 * This way, it's possible to quickly test (by searching) if specific artist_ID is awarded artist.
+	 */
 	public static void indexAwards(){
 		String indexDirPath = "./data/artists_genres_awards_tracks/index-awards/";
 		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/awarded_artist_ID.txt";
@@ -110,9 +136,19 @@ public class IndexEngine {
 		}
 	}
 	
+	/**
+	 * Creates index from file "artist_ID-genre_ID.txt" in directory "index-genres". 
+	 * Every line in this file is modeled as one Apache Lucene document, which is added to the index.
+	 * One document contains two fields: <br />
+	 * <br />
+	 * artist_ID - indexed, not analyzed, stored <br />
+	 * genre_ID - indexed, not analyzed, stored <br />
+	 * <br />
+	 * This way, it's possible to search for specific artist_ID and get its assigned genre_ID and vice versa.
+	 */
 	public static void indexGenres(){
 		String indexDirPath = "./data/artists_genres_awards_tracks/index-genres/";
-		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/artist_ID-genre_ID.txt";
+		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/.txt";
 		String pattern = "^(?<artistID>[^\\t]+)\\t(?<genreID>[^\\t]+)$";
 		
 		System.out.println("Creating index GENRES...");
@@ -163,6 +199,16 @@ public class IndexEngine {
 		}
 	}
 	
+	/**
+	 * Creates index from file "artist_ID-track_ID.txt" in directory "index-tracks". 
+	 * Every line in this file is modeled as one Apache Lucene document, which is added to the index.
+	 * One document contains two fields: <br />
+	 * <br />
+	 * artist_ID - indexed, not analyzed, not stored <br />
+	 * track_ID - indexed, not analyzed, stored <br />
+	 * <br />
+	 * This way, it's possible to search for specific artist_ID and get its assigned track_ID.
+	 */
 	public static void indexTracks(){
 		String indexDirPath = "./data/artists_genres_awards_tracks/index-tracks/";
 		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/artist_ID-track_ID.txt";
@@ -216,6 +262,19 @@ public class IndexEngine {
 		}
 	}
 	
+	/**
+	 * Creates index from file "genre_ID-genre_name.txt" in directory "index-genre-names". 
+	 * Every line in this file is modeled as one Apache Lucene document, which is added to the index.
+	 * One document contains two fields: <br />
+	 * <br />
+	 * genre_ID - indexed, not analyzed, stored <br />
+	 * genre_name - indexed, analyzed, stored <br />
+	 * <br />
+	 * This way, it's possible to search for genre names and get their assigned genre_IDs.
+	 * StandardAnalyzer is used for tokenization.<br />
+	 * <br />
+	 * This method needs to be called after method {@link src.artistGenresAwardsTracks.utils.SearchEngine#extractGenreNames() SearchEngine.extractGenreNames()}
+	 */
 	public static void indexGenreNames(){
 		String indexDirPath = "./data/artists_genres_awards_tracks/index-genre-names/";
 		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/genre_ID-genre_name.txt";
@@ -261,6 +320,11 @@ public class IndexEngine {
 		}
 	}
 	
+	/**
+	 * Main method for calling individual index methods, mainly for debugging reasons.
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		/*indexNames();
 		indexAwards();

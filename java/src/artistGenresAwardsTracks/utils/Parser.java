@@ -21,16 +21,17 @@ public class Parser {
 	
 	/**
 	 * Freebase data dump in RDF format is parsed into one output file using regular expressions. Dump is
-	 * searched for triples containing only these four namespaces:
-	 * 
-	 * 	music.artist.track, 
-	 * 	award.award_winner.awards_won,
-	 * 	music.artist.genre,
-	 * 	type.object.name
-	 * 
+	 * searched for triples containing only these four predicates: <br />
+	 * <br />
+	 * 	music.artist.track <br />
+	 * 	award.award_winner.awards_won <br />
+	 * 	music.artist.genre <br />
+	 * 	type.object.name <br />
+	 * <br />
 	 * Unnecessary URLs and other redundant characters are stripped. 
 	 * Output file is wiped before storing any information.
 	 * Method outputs also information about every one million of records processed.
+	 * One line of output file is in the following form: "subject	predicate	object". These fields are tab-separated.
 	 * 
 	 * @param freebaseDumpRDFPath path to g-zipped Freebase dump file in RDF format
 	 * @param outputFilePath arbitrary text file path
@@ -122,7 +123,7 @@ public class Parser {
 	
 	/**
 	 * Main method, which contains input and output file paths and then calls one and only 
-	 * method parseDump(...) with paths as arguments.
+	 * method parseDump(...) with these paths as arguments.
 	 * 
 	 * @param args
 	 */

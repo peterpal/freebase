@@ -4,6 +4,7 @@
 package src.artistGenresAwardsTracks.utils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.InputStream;
@@ -13,13 +14,35 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * Splits parsed dump file to individual files
+ * 
  * @author stefanlinner
  *
  */
 public class Splitter {
 
+	/**
+	 * Initially parsed dump from class {@link src.artistGenresAwardsTracks.utils.Parser Parser} is in this method further
+	 * split into four other files. These files are used as an input files for {@link src.artistGenresAwardsTracks.utils.IndexEngine IndexEngine}.
+	 * Created output files are: <br />
+	 * <br />
+	 * object_ID-name.txt <br />
+	 * artist_ID-genre_ID.txt <br />
+	 * awarded_artist_ID.txt <br />
+	 * artist_ID-track_ID.txt <br />
+	 *  <br />
+	 *  File names "field-field.txt" say exactly what fields are stored in each files. Fields are tab-separated.
+	 * 
+	 * @param inputFilePath parsed dump text file, containing lines in the form "subject	predicate	object"
+	 * @param outputDirPath output directory path for split files
+	 */
 	public static void splitParsedDump(String inputFilePath, String outputDirPath) {
 		InputStream fileStream;
+		
+		//create all parent directories
+		final File file = new File(outputDirPath);	
+		if (null != file) file.mkdirs();
+		
 		try {
 			fileStream = new FileInputStream(inputFilePath);
 			Reader decoder = new InputStreamReader(fileStream, "UTF-8");
@@ -93,6 +116,9 @@ public class Splitter {
 	}
 	
 	/**
+	 * Main method, which contains input and output file paths and then calls one and only 
+	 * method splitParsedDump(...) with these paths as arguments.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {

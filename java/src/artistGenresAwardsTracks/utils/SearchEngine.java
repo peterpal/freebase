@@ -33,11 +33,20 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
 /**
+ * Class contains different methods for searching string or set of string through specified index 
+ * and one method for searching and saving genre names to individual file.
+ * 
  * @author stefanlinner
  *
  */
 public class SearchEngine {
 
+	/**
+	 * Creates file, containing in each line fields genre_ID and genre_name, for quicker searching through all existing genres. Fields are tab-separated.<br />
+	 * <br />
+	 * General purpose of this method is the same as purpose of class {@link src.artistGenresAwardsTracks.utils.Splitter Splitter},
+	 * except now is additionally used already created index of object names for finding genre names.
+	 */
 	public static void extractGenreNames(){
 		String inputFilePath = "./data/artists_genres_awards_tracks/parsed_files/artist_ID-genre_ID.txt";
 		String outputFilePath = "./data/artists_genres_awards_tracks/parsed_files/genre_ID-genre_name.txt";
@@ -84,7 +93,7 @@ public class SearchEngine {
 					 hits = results.scoreDocs;
 					 
 					 if (results.totalHits == 0) {
-						 //hits can be zero
+						 //hits can be zero (no english name was parsed)
 						 questionable++;
 						 continue;
 					 }
@@ -113,6 +122,19 @@ public class SearchEngine {
 		}
 	}
 	
+	/**
+	 * Method for searching through specified index for a specified string.
+	 * 
+	 * @param searchQuery search query
+	 * @param documentSearchField indexed document field name to search
+	 * @param indexDirPath path to index directory
+	 * @param resultsSize maximum size of returned top hits
+	 * @param documentReturnField indexed document field name to return (can be null)
+	 * @param analyzed if true, StandardAnalyzer is used for query parser, else WhitespaceAnalyzer (depends on document field parameters)
+	 * @return Unique set of found strings if documentReturnField is not null. Else set contains only one element "Document found"
+	 * @throws IOException
+	 * @throws ParseException
+	 */
 	public static Set<String> searchString(String searchQuery, String documentSearchField, String indexDirPath, int resultsSize, String documentReturnField, boolean analyzed) 
 			throws IOException, ParseException{
 
@@ -152,15 +174,15 @@ public class SearchEngine {
 	}
 	
 	/**
-	 * Returns vector of strings. First element in vector is the value of searchQuery. Next elements are search results.
+	 * Method for searching through specified index for a specified string.
 	 * 
-	 * @param searchQuery
-	 * @param documentSearchField
-	 * @param indexDirPath
-	 * @param resultsSize
-	 * @param documentReturnField
-	 * @param analyzed
-	 * @return
+	 * @param searchQuery search query
+	 * @param documentSearchField indexed document field name to search
+	 * @param indexDirPath path to index directory
+	 * @param resultsSize maximum size of returned top hits
+	 * @param documentReturnField indexed document field name to return (can be null)
+	 * @param analyzed if true, StandardAnalyzer is used for query parser, else WhitespaceAnalyzer (depends on document field parameters)
+	 * @return Vector of strings. First element in vector is the value of searchQuery. Next elements are search results.
 	 * @throws IOException
 	 * @throws ParseException
 	 */
@@ -199,6 +221,19 @@ public class SearchEngine {
 		    return resultsVector;
 	}
 	
+	/**
+	 * Method for searching through specified index for a set of strings.
+	 * 
+	 * @param searchSet
+	 * @param documentSearchField indexed document field name to search
+	 * @param indexDirPath path to index directory
+	 * @param resultsSize maximum size of returned top hits
+	 * @param documentReturnField indexed document field name to return (can be null)
+	 * @param analyzed if true, StandardAnalyzer is used for query parser, else WhitespaceAnalyzer (depends on document field parameters)
+	 * @return Unique set of found strings if documentReturnField is not null. Else set contains only one element "Document found"
+	 * @throws IOException
+	 * @throws ParseException
+	 */
 	public static Set<String> searchSet(Set<String> searchSet, String documentSearchField, String indexDirPath, int resultsSize, String documentReturnField, boolean analyzed) 
 			throws IOException, ParseException{
 

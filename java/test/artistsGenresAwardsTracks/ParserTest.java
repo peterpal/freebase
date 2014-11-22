@@ -24,9 +24,9 @@ public class ParserTest {
 	 */
 	@Test
 	public void testParseDump() {
-		String sampleDumpRDFPath = new String("./data/sample_artists_awards_tracks_data.txt");
-		String sampleOutputFilePath = new String("./data/sample_artists_awards_tracks_parsed.txt");
-		String testsampleOutputFilePath = new String("./data/sample_artists_awards_tracks_parsed_test.txt");
+		String sampleDumpRDFPath = "./data/artists_genres_awards_tracks/sample_data.txt";
+		String sampleOutputFilePath = "./data/artists_genres_awards_tracks/test_files/sample_parsed_true.txt";
+		String testsampleOutputFilePath = "./data/artists_genres_awards_tracks/test_files/sample_parsed_test.txt";
 		
 		Parser.parseDump(sampleDumpRDFPath, testsampleOutputFilePath);
 		

@@ -9,14 +9,14 @@ import src.artistGenresAwardsTracks.utils.SearchEngine;
 import src.artistGenresAwardsTracks.utils.Splitter;
 
 /**
+ * Preprocessor class ensures, that all necessary preconditions for running {@link src.artistGenresAwardsTracks.Service Service} class are met.
+ * Freebase data dump is parsed and split to five specific files and subsequently indexed.
+ * 
  * @author stefanlinner
  *
  */
 public class Preprocessor {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		//Parse freebase data dump
 		String freebaseDumpRDFPath = "/Volumes/SSD_SAMSUNG_840/freebase-rdf-2014-10-12-00-00.gz";
@@ -24,7 +24,7 @@ public class Preprocessor {
 		Parser.parseDump(freebaseDumpRDFPath, parsedDumpFilePath);
 		
 		//Split parsed dump to individual files
-		String splitDir = "./data/artists_genres_awards_tracks/";
+		String splitDir = "./data/artists_genres_awards_tracks/parsed_files/";
 		Splitter.splitParsedDump(parsedDumpFilePath, splitDir);
 
 		//Index individual files
