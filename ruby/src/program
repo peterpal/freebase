@@ -1,0 +1,5 @@
+require '../code/parser'
+
+
+p = Parser.new
+p.Parse
