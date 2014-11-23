@@ -4,6 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Pattern;
 
 import org.junit.Test;
 
@@ -34,7 +37,12 @@ public class TestParser {
 	public void testParser() throws IOException {
 		File file = new File("data/freebase_test.gz");
 		String output = "";
-		for(Topic topic : new NTripletParser().parseGzFile(file)) {
+		Map<String, Pattern> predicatesMap = new HashMap<>();
+		predicatesMap.put("type.object.name", Pattern.compile("\"([^>]+)\"@en"));
+		predicatesMap.put("type.object.type", Pattern.compile("<http:\\/\\/rdf\\.freebase\\.com\\/ns\\/([^>]+)>"));
+		predicatesMap.put("common.topic.alias", Pattern.compile("\"([^>]+)\"@en"));
+		
+		for(Topic topic : new NTripletParser(predicatesMap).parseGzFile(file)) {
 			output += topic.toString() + "\r\n";
 		}
 		assertEquals(output, expectedOutput);
