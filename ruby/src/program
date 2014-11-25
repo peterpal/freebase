@@ -1,5 +1,14 @@
-require '../code/parser'
+require '../../ruby/src/parser'
+require '../../ruby/src/people'
 
 
 p = Parser.new
 p.Parse
+
+puts "Zadaj prve meno\n"
+name1 = gets.chomp
+puts "Zadaj druhe meno\n"
+name2 = gets.chomp
+
+#per = People.new
+#per.run_people(name1,name2)
