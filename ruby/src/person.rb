@@ -25,4 +25,12 @@ class Person
   def get_name
     return @name
   end
+
+  def get_id
+    return @id
+  end
+
+  def get_date_of_death
+    return @date_of_death
+  end
 end

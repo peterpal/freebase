@@ -1,4 +1,4 @@
-<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1983-01-04"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.01002c21>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1983-01-04"^^<http://www.w3.org/2001/XMLSchema#date>	.
 <http://rdf.freebase.com/ns/m.0100pp1_>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1952"^^<http://www.w3.org/2001/XMLSchema#gYear>	.
 <http://rdf.freebase.com/ns/m.0100s3s6>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1996-02-18"^^<http://www.w3.org/2001/XMLSchema#date>	.
 <http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1985-12-16"^^<http://www.w3.org/2001/XMLSchema#date>	.
