@@ -9,12 +9,18 @@ import java.util.regex.Pattern;
 
 import org.apache.avro.Schema;
 import org.apache.avro.Schema.Type;
+import org.apache.avro.file.DataFileReader;
+import org.apache.avro.file.FileReader;
+import org.apache.avro.file.SeekableInput;
+import org.apache.avro.io.DatumReader;
 import org.apache.avro.mapred.AvroCollector;
 import org.apache.avro.mapred.AvroJob;
 import org.apache.avro.mapred.AvroKey;
 import org.apache.avro.mapred.AvroReducer;
 import org.apache.avro.mapred.AvroValue;
+import org.apache.avro.mapred.FsInput;
 import org.apache.avro.mapred.Pair;
+import org.apache.avro.specific.SpecificDatumReader;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
@@ -38,7 +44,7 @@ public class MapToppicTitleAltTypeToAvro extends Configured implements Tool {
 
 	public static class Map extends Mapper<LongWritable, Text, AvroKey<CharSequence>, AvroValue<Triplet>> {
 		private final static java.util.Map<String, Pattern> predicatesMap = new HashMap<>();
-		{
+		static {
 			predicatesMap.put("type.object.name", Pattern.compile("\"([^>]+)\"@en"));
 			predicatesMap.put("type.object.type", Pattern.compile("<http:\\/\\/rdf\\.freebase\\.com\\/ns\\/([^>]+)>"));
 			predicatesMap.put("common.topic.alias", Pattern.compile("\"([^>]+)\"@en"));
@@ -77,7 +83,10 @@ public class MapToppicTitleAltTypeToAvro extends Configured implements Tool {
 				}
 			}
 			
-
+			//Does not have english title => is not part of english freebase
+			if(title == "")
+				return;
+			
 			TopicAvro topicAvro = new TopicAvro(title, types, alts);
 
 			collector.collect(new Pair<CharSequence, TopicAvro>(key.toString(),
@@ -117,14 +126,63 @@ public class MapToppicTitleAltTypeToAvro extends Configured implements Tool {
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		
+		boolean result = job.waitForCompletion(true);
 		
-		boolean result;
-		long startTime = System.currentTimeMillis();
-		result = job.waitForCompletion(true);
-		long totalTime = System.currentTimeMillis() - startTime;
-		System.out.println("Total time = " + totalTime);
-		System.out.println();
+		if (!result)
+			return -1;
+		
+		Path path = new Path(args[1]+"/part-00000.avro");
+		conf = getConf();
+		conf.set("mapred.job.tracker", args[2]);
+		conf.set("fs.default.name", args[3]);
+		SeekableInput input = new FsInput(path, conf);
+		Schema schema = Pair.getPairSchema(Schema.create(Type.STRING),
+				TopicAvro.getClassSchema());
+		DatumReader<Pair<CharSequence, TopicAvro>> reader = new SpecificDatumReader<Pair<CharSequence, TopicAvro>>(schema);
+		FileReader<Pair<CharSequence, TopicAvro>> fileReader = DataFileReader.openReader(input, reader);
+		parseStats(fileReader);
+		
 		return result ? 0 : -1;
+	}
+
+	private void parseStats(FileReader<Pair<CharSequence, TopicAvro>> fileReader) {
+		int i = 0;
+		int cMin = Integer.MAX_VALUE;
+		int cMax = 0;
+		long cSum = 0;
+		double cAvg = 0;
+		int aMin = Integer.MAX_VALUE;
+		int aMax = 0;
+		long aSum = 0;
+		double aAvg = 0;
+		
+		
+		for (Pair<CharSequence, TopicAvro> pair : fileReader) {
+			i++;
+			int categories = pair.value().getTypes().size();
+			int aliases = pair.value().getAlts().size();
+			
+			if(aMax < aliases)
+				aMax = aliases;
+			if(aMin > aliases)
+				aMin = aliases;
+			aSum += aliases;
+			
+			if(cMax < categories)
+				cMax = categories;
+			if(cMin > categories)
+				cMin = categories;
+			cSum += categories;
+		}
+		
+		System.out.println("Topics: "+i);
+		cAvg = cSum/(double)i;
+		System.out.println("Average categories: "+cAvg);
+		System.out.println("Min/Max categories: "+(int)cMin+"/"+(int)cMax);
+		aAvg = aSum/(double)i;
+		System.out.println("Average aliases: "+aAvg);
+		System.out.println("Min/Max aliases: "+(int)aMin+"/"+(int)aMax);
+	
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -144,8 +202,10 @@ public class MapToppicTitleAltTypeToAvro extends Configured implements Tool {
 		
 		if(inPath.trim().isEmpty())
 			inPath = "/data/freebase-rdf-2014-09-21-00-00.gz";
-		if(outPath.trim().isEmpty())
+		if(outPath.trim().isEmpty()) 
 			outPath = "/data/out/freebase-rdf-2014-09-21-00-00-"+new Date().getTime();
+		else 
+			outPath += new Date().getTime();
 		if(tracker.trim().isEmpty())
 			tracker = "192.168.56.103:8021";
 		if(fsName.trim().isEmpty())
