@@ -179,6 +179,8 @@ class People
           find_overlap(person1, person2)
         end
       end
+    else
+      puts "Nenasli sa ziadne data, ktore mozno porovnat\n"
     end
   end
 end
