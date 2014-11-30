@@ -10,15 +10,35 @@ def get_hash_person
 end
 
 def Parse
+#  File.open('../../data/statistics.txt', 'a') do |f1|
+#    f1.puts "Program started at: "
+#    f1.puts Time.now
+#    f1.puts "******\n"
+#  end
+
+  def path_birth= path_birth
+    @path_birth = path_birth
+  end
+
+  def path_death= path_death
+    @path_death = path_death
+  end
+
+  def path_names= path_names
+    @path_names = path_names
+  end
 
   @hash_person = Hash.new
 
-  File.open('../../data/sample_date_of_birth.gz', 'r') do |f1|
-    processed = 0
-    skipped = 0
+  processed = 0
+  skipped = 0
+  line_counter = 0
+
+  File.open(@path_birth, 'r') do |f1|
     while line = f1.gets
     #def raise_and_rescue
       begin
+        line_counter = line_counter + 1
         p = Person.new
         id = line.match(/(m\.[[:alnum:]_]+)/)[1]
         date = line.match(/"([[:digit:]-]+)"/)[1]
@@ -38,18 +58,33 @@ def Parse
     end
   end
 
+#  File.open('../../data/statistics.txt', 'a') do |f1|
+#    f1.puts "\nFile Date_of_birth processed:\n"
+#    f1.puts Time.now
+#    f1.puts "Numbers (lines, processed, skipped)"
+#    f1.puts line_counter
+#    f1.puts processed
+#    f1.puts skipped
+#    f1.puts "******\n"
+#  end
+
   processed = 0
   skipped = 0
+  line_counter = 0
+  missing = 0
 
-  File.open('../../data/sample_date_of_death.gz', 'r') do |f1|
+  File.open(@path_death, 'r') do |f1|
     while line = f1.gets
       #def raise_and_rescue
         begin
+          line_counter = line_counter + 1
           id = line.match(/(m\.[[:alnum:]_]+)/)[1]
           date = line.match(/"([[:digit:]-]+)"/)[1]
 
           if (@hash_person[id] != nil)
             @hash_person[id].date_of_death = date
+          else
+            missing = missing + 1
           end
           processed = processed+1
         rescue Exception => e
@@ -63,19 +98,38 @@ def Parse
       #raise_and_rescue
     end
   end
+
+#  File.open('../../data/statistics.txt', 'a') do |f1|
+#    f1.puts "\nFile Date_of_death processed:\n"
+#    f1.puts Time.now
+#    f1.puts "Numbers (lines, processed, skipped, missing)"
+#    f1.puts line_counter
+#    f1.puts processed
+#    f1.puts skipped
+#    f1.puts missing
+#    f1.puts "******\n"
+#  end
 
   processed = 0
   skipped = 0
+  missing = 0
+  line_counter = 0
 
-  File.open('../../data/sample_names.gz', 'r') do |f1|
+  File.open(@path_names, 'r') do |f1|
     while line = f1.gets
       #def raise_and_rescue
         begin
+          line_counter = line_counter + 1
           id = line.match(/(m\.[[:alnum:]_]+)/)[1]
           name = line.match(/"([[:print:]]+)"/)[1]
 
+          if (line_counter % 100000 == 0)
+            puts line_counter.inspect
+          end
           if (@hash_person[id] != nil)
             @hash_person[id].name = name
+          else
+            missing = missing + 1
           end
           processed = processed+1
         rescue Exception => e
@@ -90,15 +144,40 @@ def Parse
     end
   end
 
-  counter = 0
+#  File.open('../../data/statistics.txt', 'a') do |f1|
+#    f1.puts "\nFile Names:\n"
+#    f1.puts Time.now
+#    f1.puts "Numbers (lines, processed, skipped, missing)"
+#    f1.puts line_counter
+#    f1.puts processed
+#    f1.puts skipped
+#    f1.puts missing
+#    f1.puts "******\n"
+#  end
+
+  line_counter = 0
+  missing = 0
   File.open('../../data/data.txt', 'w') do |f2|
     @hash_person.each do |k,v|
-      f2.puts "#{@hash_person[k].get_id};#{@hash_person[k].get_name};#{@hash_person[k].get_date_of_birth};#{@hash_person[k].get_date_of_death}\n"
-      counter = counter+1
-        if (counter % 100000 == 0)
-          puts"Id=#{@hash_person[k].get_id};Name=#{@hash_person[k].get_name};DateOfBirth=#{@hash_person[k].get_date_of_birth};DateOfDeath=#{@hash_person[k].get_date_of_death}\n"
-        end
+      line_counter = line_counter+1
+      if (line_counter % 100000 == 0)
+        puts"Id=#{@hash_person[k].get_id};Name=#{@hash_person[k].get_name};DateOfBirth=#{@hash_person[k].get_date_of_birth};DateOfDeath=#{@hash_person[k].get_date_of_death}\n"
+      end
+      if (@hash_person[k].get_id != nil && @hash_person[k].get_name != nil && @hash_person[k].get_date_of_birth != nil && @hash_person[k].get_date_of_death != nil)
+        f2.puts "#{@hash_person[k].get_id};#{@hash_person[k].get_name};#{@hash_person[k].get_date_of_birth};#{@hash_person[k].get_date_of_death}\n"
+      else
+        missing = missing + 1
       end
     end
+  end
+
+#  File.open('../../data/statistics.txt', 'a') do |f1|
+#    f1.puts "\nFile data.txt created:\n"
+#    f1.puts Time.now
+#    f1.puts "Numbers (lines, missing)"
+#    f1.puts line_counter
+#    f1.puts missing
+#    f1.puts "******\n"
+#  end
 end
 end
