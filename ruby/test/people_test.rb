@@ -1,4 +1,5 @@
 require 'test/unit'
+require '../src/person'
 
 class PeopleTest < Test::Unit::TestCase
   def test_simple
