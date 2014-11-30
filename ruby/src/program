@@ -1,7 +1,7 @@
 require '../../ruby/src/parser'
 require '../../ruby/src/people'
 
-puts "Vyber si:\n1>: pre parsovanie\n2: pre tvorbu indexu a vyhladavanie\n3: pre ukoncenie programu\n"
+puts "Vyber si:\n1: pre parsovanie\n2: pre tvorbu indexu a vyhladavanie\n3: pre ukoncenie programu\n"
 c = gets.chomp
 
 case c
@@ -29,6 +29,7 @@ case c
     exit
   else
     puts "Nespravna moznost\n"
+    exit
 end
 
 
