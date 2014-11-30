@@ -166,7 +166,7 @@ def Parse
   missing = 0
 
   # Common data for people are created by this code:
-  File.open('../../data/data.txt', 'w') do |f2|
+  File.open('../../data/sample_output_people.txt', 'w') do |f2|
     @hash_person.each do |k,v|
       line_counter = line_counter+1
       if (line_counter % 100000 == 0)

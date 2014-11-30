@@ -34,7 +34,7 @@ class People
   def create_index
     idx     = RAMDirectory.new
     writer  = IndexWriter.new(idx, StandardAnalyzer.new(Version::LUCENE_30), IndexWriter::MaxFieldLength::LIMITED)
-    File.open('../../data/data.txt', 'r') do |f1|
+    File.open('../../data/sample_output_people.txt', 'r') do |f1|
       while line = f1.gets
         line = line.strip.split(";")
         writer.add_document(create_document(line[0], line[1], line[2], line[3]))
