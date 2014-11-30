@@ -5,17 +5,6 @@ require 'zlib'
 class Parser
   @hash_person
 
-def get_hash_person
-  return @hash_person
-end
-
-def Parse
-#  File.open('../../data/statistics.txt', 'a') do |f1|
-#    f1.puts "Program started at: "
-#    f1.puts Time.now
-#    f1.puts "******\n"
-#  end
-
   def path_birth= path_birth
     @path_birth = path_birth
   end
@@ -26,6 +15,17 @@ def Parse
 
   def path_names= path_names
     @path_names = path_names
+  end
+
+def get_hash_person
+  return @hash_person
+end
+
+def Parse
+  File.open('../../data/statistics.txt', 'a') do |f1|
+    f1.puts "Program started at: "
+    f1.puts Time.now
+    f1.puts "******\n"
   end
 
   @hash_person = Hash.new
@@ -58,15 +58,15 @@ def Parse
     end
   end
 
-#  File.open('../../data/statistics.txt', 'a') do |f1|
-#    f1.puts "\nFile Date_of_birth processed:\n"
-#    f1.puts Time.now
-#    f1.puts "Numbers (lines, processed, skipped)"
-#    f1.puts line_counter
-#    f1.puts processed
-#    f1.puts skipped
-#    f1.puts "******\n"
-#  end
+  File.open('../../data/statistics.txt', 'a') do |f1|
+    f1.puts "\nFile Date_of_birth processed:\n"
+    f1.puts Time.now
+    f1.puts "Numbers (lines, processed, skipped)"
+    f1.puts line_counter
+    f1.puts processed
+    f1.puts skipped
+    f1.puts "******\n"
+  end
 
   processed = 0
   skipped = 0
@@ -99,16 +99,16 @@ def Parse
     end
   end
 
-#  File.open('../../data/statistics.txt', 'a') do |f1|
-#    f1.puts "\nFile Date_of_death processed:\n"
-#    f1.puts Time.now
-#    f1.puts "Numbers (lines, processed, skipped, missing)"
-#    f1.puts line_counter
-#    f1.puts processed
-#    f1.puts skipped
-#    f1.puts missing
-#    f1.puts "******\n"
-#  end
+  File.open('../../data/statistics.txt', 'a') do |f1|
+    f1.puts "\nFile Date_of_death processed:\n"
+    f1.puts Time.now
+    f1.puts "Numbers (lines, processed, skipped, missing)"
+    f1.puts line_counter
+    f1.puts processed
+    f1.puts skipped
+    f1.puts missing
+    f1.puts "******\n"
+  end
 
   processed = 0
   skipped = 0
@@ -144,16 +144,16 @@ def Parse
     end
   end
 
-#  File.open('../../data/statistics.txt', 'a') do |f1|
-#    f1.puts "\nFile Names:\n"
-#    f1.puts Time.now
-#    f1.puts "Numbers (lines, processed, skipped, missing)"
-#    f1.puts line_counter
-#    f1.puts processed
-#    f1.puts skipped
-#    f1.puts missing
-#    f1.puts "******\n"
-#  end
+  File.open('../../data/statistics.txt', 'a') do |f1|
+    f1.puts "\nFile Names:\n"
+    f1.puts Time.now
+    f1.puts "Numbers (lines, processed, skipped, missing)"
+    f1.puts line_counter
+    f1.puts processed
+    f1.puts skipped
+    f1.puts missing
+    f1.puts "******\n"
+  end
 
   line_counter = 0
   missing = 0
@@ -171,13 +171,13 @@ def Parse
     end
   end
 
-#  File.open('../../data/statistics.txt', 'a') do |f1|
-#    f1.puts "\nFile data.txt created:\n"
-#    f1.puts Time.now
-#    f1.puts "Numbers (lines, missing)"
-#    f1.puts line_counter
-#    f1.puts missing
-#    f1.puts "******\n"
-#  end
+  File.open('../../data/statistics.txt', 'a') do |f1|
+    f1.puts "\nFile data.txt created:\n"
+    f1.puts Time.now
+    f1.puts "Numbers (lines, missing)"
+    f1.puts line_counter
+    f1.puts missing
+    f1.puts "******\n"
+  end
 end
 end
