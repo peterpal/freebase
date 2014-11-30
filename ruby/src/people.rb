@@ -20,6 +20,7 @@ java_import org.apache.lucene.search.TopScoreDocCollector
 
 class People
 
+  # in this method are documents of people with index on id and name created
   def create_document(id, name, date_of_birth, date_of_death)
     doc = Document.new
     doc.add Field.new("id", id, Field::Store::YES, Field::Index::ANALYZED)
@@ -29,6 +30,7 @@ class People
     doc
   end
 
+  # in this method is IndexWriter created, indexed documents are written to memory
   def create_index
     idx     = RAMDirectory.new
     writer  = IndexWriter.new(idx, StandardAnalyzer.new(Version::LUCENE_30), IndexWriter::MaxFieldLength::LIMITED)
@@ -44,6 +46,7 @@ class People
     idx
   end
 
+  # in this method are documents searched based on name
   def search(searcher, query_string, some_array)
     parser = QueryParser.new(Version::LUCENE_30, "name", StandardAnalyzer.new(Version::LUCENE_30))
     query = parser.parse(query_string)
@@ -89,12 +92,13 @@ class People
           r = Result.new
           r.score = doc_score
           r.person = p
-          some_array.push(r)
+          some_array.push(r) # result is stored in array
         end
       end
     end
   end
 
+  # in this method is overlap of time of living found
   def find_overlap (person1, person2)
     line = person1.get_person.get_date_of_birth
 
@@ -128,16 +132,17 @@ class People
       f1.puts "\nOsoby:\n"
       f1.puts"#{person1.get_score};#{person1.get_person.get_name};#{person1.get_person.get_date_of_birth};#{person1.get_person.get_date_of_death}\n"
       f1.puts"#{person2.get_score};#{person2.get_person.get_name};#{person2.get_person.get_date_of_birth};#{person2.get_person.get_date_of_death}\n"
-      if ((year1 < year2 && year2 < year12) || (year2 < year1 && year1 < year22))
+
+      if ((year1 < year2 && year2 < year12) || (year2 < year1 && year1 < year22)) # if year of birth of one person is between years of birth and death of second person
         f1.puts "Mohli sa stretnut\n"
-      elsif ((year1 < year22 && year22 < year12) || (year2 < year12 && year12 < year22))
+      elsif ((year1 < year22 && year22 < year12) || (year2 < year12 && year12 < year22))  # if year of death of one person is between years of birth and death of second person
         f1.puts "Mohli sa stretnut\n"
-      elsif (year12 < year2 || year22 < year1)
+      elsif (year12 < year2 || year22 < year1)  # if year of death of one person is before year of birth of second person
         f1.puts "Nemohli sa stretnut\n"
-      elsif (year1 == year22)
+      elsif (year1 == year22) # if years are same
         if (mounth1 != nil && mounth22 != nil)
-          if (mounth1 < mounth22 || ((mounth1 == mounth22) && (day1 != nil && day22 != nil) && (day1 <= day22)))
-            f1.puts "Mohli sa stretnut\n"
+          if (mounth1 < mounth22 || ((mounth1 == mounth22) && (day1 != nil && day22 != nil) && (day1 <= day22)))  # and mounth of birth of one person is before mounth of death of second person
+            f1.puts "Mohli sa stretnut\n"                                                                         # or if these mounths are same and day of birth of one person is before day of death of second person or is same as this day
           elsif (mounth1 == mounth22 && day1 == nil && day22 == nil)
             f1.puts "Rovnaky rok a mesiac narodenia a umrtia osob, ale chybaju dni\n"
           else
@@ -146,10 +151,10 @@ class People
         else
           f1.puts "Rovnaky rok narodenia a umrtia osob, ale chybaju dni a mesiace\n"
         end
-      elsif (year2 == year12)
+      elsif (year2 == year12) # if years are same
         if (mounth2 != nil && mounth12 != nil)
-          if (mounth2 < mounth12 || ((mounth2 == mounth12) && (day2 != nil && day12 != nil) && (day2 <= day12)))
-            f1.puts "Mohli sa stretnut\n"
+          if (mounth2 < mounth12 || ((mounth2 == mounth12) && (day2 != nil && day12 != nil) && (day2 <= day12)))  # and mounth of birth of one person is before mounth of death of second person
+            f1.puts "Mohli sa stretnut\n"                                                                         # or if these mounths are same and day of birth of one person is before day of death of second person or is same as this day
           elsif (mounth2 == mounth12 && day2 == nil && day12 == nil)
             f1.puts "Rovnaky rok a mesiac narodenia a umrtia osob, ale chybaju dni\n"
           else
@@ -169,14 +174,16 @@ class People
     people_based_on_name1 = Array.new
     people_based_on_name2 = Array.new
 
+    # search for results based on first name
     search(searcher, name1, people_based_on_name1)
+    # search for results based on second name
     search(searcher, name2, people_based_on_name2)
     searcher.close
 
     if (people_based_on_name1.length != 0 && people_based_on_name2.length != 0)
       people_based_on_name1.each do |person1|
         people_based_on_name2.each do |person2|
-          find_overlap(person1, person2)
+          find_overlap(person1, person2)  # find overlap of time of living
         end
       end
     else

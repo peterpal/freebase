@@ -7,9 +7,15 @@ c = gets.chomp
 case c
   when "1"
     p = Parser.new
-    p.path_birth = '../../data/sample_date_of_birth.txt.gz'
-    p.path_death = '../../data/sample_date_of_death.txt.gz'
-    p.path_names = '../../data/names.txt.gz'
+
+    #If you want to work with big data, uncomment this rows:
+    #p.path_birth = '../../data/sample_date_of_birth.txt.gz'
+    #p.path_death = '../../data/sample_date_of_death.txt.gz'
+    #p.path_names = '../../data/names.txt.gz'
+
+    p.path_birth = '../../data/sample_date_of_birth.txt'
+    p.path_death = '../../data/sample_date_of_death.txt'
+    p.path_names = '../../data/sample_names.txt'
     p.Parse
   when "2"
     puts "Zadaj prve meno\n"

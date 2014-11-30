@@ -1,3 +1,5 @@
+# This class contains person object and it's score.
+
 class Result
 
   def person= person

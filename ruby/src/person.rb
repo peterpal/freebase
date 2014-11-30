@@ -1,3 +1,5 @@
+# This class contains personal data: id, name, date_of_birth, date_of_death
+
 class Person
 
   attr_accessor :age
