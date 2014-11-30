@@ -1,0 +1,179 @@
+772 total matching documents
+Hits for Abraham Lincoln were found in quotes by:
+doc_id: 26993 	 score: 7.32332134246826
+0. Abraham Lincoln
+Date_of_birth: 1809-02-12
+Date_of_death: 1865-04-15
+
+doc_id: 263065 	 score: 7.32332134246826
+1. Abraham Lincoln
+Date_of_birth: 1744-05-13
+Date_of_death: 1786-05-04
+
+doc_id: 46742 	 score: 5.85865688323975
+2. Abraham Lincoln Lewis
+Date_of_birth: 1865
+Date_of_death: 1947
+
+doc_id: 68739 	 score: 5.85865688323975
+3. Abraham Lincoln Filene
+Date_of_birth: 1865-04-05
+Date_of_death: 1957-08-27
+
+doc_id: 105360 	 score: 5.85865688323975
+4. Abraham Lincoln Marovitz
+Date_of_birth: 1905-08-10
+Date_of_death: 2001-03-17
+
+1842 total matching documents
+Hits for Mary Todd were found in quotes by:
+doc_id: 313995 	 score: 5.55658626556396
+0. Mary Todd Lincoln
+Date_of_birth: 1818-12-13
+Date_of_death: 1882-07-16
+
+doc_id: 1012 	 score: 2.24789905548096
+1. Malcolm Todd
+Date_of_birth: 1939-11-27
+Date_of_death: 2013-06-06
+
+doc_id: 1479 	 score: 2.24789905548096
+2. Bob Todd
+Date_of_birth: 1921-12-15
+Date_of_death: 1992-10-21
+
+doc_id: 1744 	 score: 2.24789905548096
+3. Todd Christensen
+Date_of_birth: 1956-08-03
+Date_of_death: 2013-11-13
+
+doc_id: 2889 	 score: 2.24789905548096
+4. Alan Todd
+Date_of_birth: 1900-06-03
+Date_of_death: 1976-08-14
+
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1809-02-12;1865-04-15
+5.55658626556396;Mary Todd Lincoln;1818-12-13;1882-07-16
+Mohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1809-02-12;1865-04-15
+2.24789905548096;Malcolm Todd;1939-11-27;2013-06-06
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1809-02-12;1865-04-15
+2.24789905548096;Bob Todd;1921-12-15;1992-10-21
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1809-02-12;1865-04-15
+2.24789905548096;Todd Christensen;1956-08-03;2013-11-13
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1809-02-12;1865-04-15
+2.24789905548096;Alan Todd;1900-06-03;1976-08-14
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1744-05-13;1786-05-04
+5.55658626556396;Mary Todd Lincoln;1818-12-13;1882-07-16
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1744-05-13;1786-05-04
+2.24789905548096;Malcolm Todd;1939-11-27;2013-06-06
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1744-05-13;1786-05-04
+2.24789905548096;Bob Todd;1921-12-15;1992-10-21
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1744-05-13;1786-05-04
+2.24789905548096;Todd Christensen;1956-08-03;2013-11-13
+Nemohli sa stretnut
+
+Osoby:
+7.32332134246826;Abraham Lincoln;1744-05-13;1786-05-04
+2.24789905548096;Alan Todd;1900-06-03;1976-08-14
+Nemohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Lewis;1865;1947
+5.55658626556396;Mary Todd Lincoln;1818-12-13;1882-07-16
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Lewis;1865;1947
+2.24789905548096;Malcolm Todd;1939-11-27;2013-06-06
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Lewis;1865;1947
+2.24789905548096;Bob Todd;1921-12-15;1992-10-21
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Lewis;1865;1947
+2.24789905548096;Todd Christensen;1956-08-03;2013-11-13
+Nemohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Lewis;1865;1947
+2.24789905548096;Alan Todd;1900-06-03;1976-08-14
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Filene;1865-04-05;1957-08-27
+5.55658626556396;Mary Todd Lincoln;1818-12-13;1882-07-16
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Filene;1865-04-05;1957-08-27
+2.24789905548096;Malcolm Todd;1939-11-27;2013-06-06
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Filene;1865-04-05;1957-08-27
+2.24789905548096;Bob Todd;1921-12-15;1992-10-21
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Filene;1865-04-05;1957-08-27
+2.24789905548096;Todd Christensen;1956-08-03;2013-11-13
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Filene;1865-04-05;1957-08-27
+2.24789905548096;Alan Todd;1900-06-03;1976-08-14
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Marovitz;1905-08-10;2001-03-17
+5.55658626556396;Mary Todd Lincoln;1818-12-13;1882-07-16
+Nemohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Marovitz;1905-08-10;2001-03-17
+2.24789905548096;Malcolm Todd;1939-11-27;2013-06-06
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Marovitz;1905-08-10;2001-03-17
+2.24789905548096;Bob Todd;1921-12-15;1992-10-21
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Marovitz;1905-08-10;2001-03-17
+2.24789905548096;Todd Christensen;1956-08-03;2013-11-13
+Mohli sa stretnut
+
+Osoby:
+5.85865688323975;Abraham Lincoln Marovitz;1905-08-10;2001-03-17
+2.24789905548096;Alan Todd;1900-06-03;1976-08-14
+Mohli sa stretnut
