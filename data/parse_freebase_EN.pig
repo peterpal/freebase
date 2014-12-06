@@ -1,9 +1,14 @@
-REGISTER json-simple-1.1.1.jar
-REGISTER avro-1.7.4.jar
-REGISTER piggybank.jar
+REGISTER /usr/lib/pig/piggybank.jar
+REGISTER /usr/lib/pig/lib/avro.jar
+REGISTER /usr/lib/pig/lib/json-simple-1.1.jar
+REGISTER /usr/lib/pig/lib/snappy-java-1.0.5.jar
+REGISTER /usr/lib/pig/lib/jackson-core-asl-1.8.8.jar
+REGISTER /usr/lib/pig/lib/jackson-mapper-asl-1.8.8.jar
+REGISTER /usr/lib/avro/avro-mapred.jar
 
+SET job.priority VERY_LOW
 
-STOCK_A = LOAD 'SD.txt' using PigStorage('>') AS (subject:chararray, predicate:chararray, object:chararray);
+STOCK_A = LOAD '%FILE%'; using PigStorage('>') AS (subject:chararray, predicate:chararray, object:chararray);
 
 RESULT = FILTER STOCK_A BY ((predicate matches '.*alias.*') AND (object matches '.*@en.*')) OR (predicate matches '.*type.object.type.*') OR ((predicate matches '.*type.object.name.*') AND (object matches '.*@en.*'));
 
@@ -51,8 +56,8 @@ ALLDATA0 = join dataID1 by subject FULL, dataA1 by subject;
 ALLDATA1 = join ALLDATA0 by dataID1::subject FULL, dataT1 by subject;
 ALLDATA2 = join ALLDATA1 by dataID1::subject FULL, dataR1 by subject;
 
-DESCRIBE ALLDATA2;
-DUMP ALLDATA2;
+--DESCRIBE ALLDATA2;
+--DUMP ALLDATA2;
 
 
 FINAL = FOREACH ALLDATA2 GENERATE 
@@ -61,10 +66,10 @@ ALLDATA1::ALLDATA0::dataA1::alias AS alias,
 ALLDATA1::dataT1::type AS type,
 dataR1::name AS name;
 
-DESCRIBE FINAL;
-DUMP FINAL;
+--DESCRIBE FINAL;
+--DUMP FINAL;
 
-STORE FINAL  INTO 'VI/FB_FIN33' 
+STORE FINAL  INTO 'predmet/palenik/VI/FB_FIN' 
 USING org.apache.pig.piggybank.storage.avro.AvroStorage(
 '{"schema": {
 		"type":"record",
@@ -78,3 +83,4 @@ USING org.apache.pig.piggybank.storage.avro.AvroStorage(
              }
      }'
 );
+
