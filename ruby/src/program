@@ -1,0 +1,38 @@
+require '../../ruby/src/parser'
+require '../../ruby/src/people'
+
+puts "Vyber si:\n1: pre parsovanie\n2: pre tvorbu indexu a vyhladavanie\n3: pre ukoncenie programu\n"
+c = gets.chomp
+
+case c
+  when "1"
+    p = Parser.new
+
+    #If you want to work with big data, uncomment this rows:
+    #p.path_birth = '../../data/sample_date_of_birth.txt.gz'
+    #p.path_death = '../../data/sample_date_of_death.txt.gz'
+    #p.path_names = '../../data/names.txt.gz'
+
+    p.path_birth = '../../data/sample_input_date_of_birth.txt'
+    p.path_death = '../../data/sample_input_date_of_death.txt'
+    p.path_names = '../../data/sample_input_names.txt'
+    p.Parse
+  when "2"
+    puts "Zadaj prve meno\n"
+    name1 = gets.chomp
+    puts "Zadaj druhe meno\n"
+    name2 = gets.chomp
+
+    per = People.new
+    per.run_people(name1,name2)
+  when "3"
+    exit
+  else
+    puts "Nespravna moznost\n"
+    exit
+end
+
+
+
+
+
