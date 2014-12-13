@@ -8,11 +8,16 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+
+/**
+ * Function to repair parser XML output file (java bug)
+ * @author Bc. Kristina Misikova
+ *
+ */
 public class EscapeAmpInXML {
 
 	
-	// escape or remove unwanted characters  
-	public static void main(String[] args) throws IOException{
+		public static void main(String[] args) throws IOException{
 		
 		String fileName = "data_tmp/freebase-rdf-2014-10-05-00-00_output_EN.xml";
 		String fileNameEscaped = "data_tmp/freebase-rdf-2014-10-05-00-00_output_EN_escaped.xml";
@@ -30,7 +35,7 @@ public class EscapeAmpInXML {
 		// read lines from file and parsing triplets
 		while ((line = buffReader.readLine()) != null) {
 			
-			// only printable chatracters
+			// only printable characters
 			line = line.replaceAll("\\P{Print}", "");
 			// replace "&" and add new line after each tag
 			out.append(line.replaceAll("&", "&amp;").replace(">", ">\n"));

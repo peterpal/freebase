@@ -13,7 +13,16 @@ import org.apache.lucene.util.Version;
 
 
 
-//class for creating index 
+/**
+ * 
+ * @author Bc. Krisitna Misikova
+ *
+ * Container class for index builder
+ * - opens new index by provided name on filesystem
+ * - provide method to Lucene Documents to index
+ * - provide method to close index
+ * 
+ */
 public class LuceneIndexBuilder 
 {
 	private StandardAnalyzer analyzer;
@@ -22,14 +31,17 @@ public class LuceneIndexBuilder
 	private IndexWriter indexWriter;
 
 	
-	@SuppressWarnings("deprecation")
 	public LuceneIndexBuilder(String indexName) throws IOException{
 		
+		// document analyzer for indexing documents
 		this.analyzer = new StandardAnalyzer();
 		
+		// Index on filesystem (directory)
 		this.index = new SimpleFSDirectory(new File(indexName));
 		
+		// config wrapper for indexWriter object
 		this.config = new IndexWriterConfig(null, this.analyzer);
+		
 		
 		this.indexWriter = new IndexWriter(index, config);
 		
@@ -37,8 +49,11 @@ public class LuceneIndexBuilder
 
 	}
 	
-	
-	// adds document to index (called from CustomHandler)
+	/**
+	 * Append document to index
+	 * 
+	 * @param doc
+	 */
 	public void appendDocument(Document doc)
 	{
 		
@@ -55,6 +70,10 @@ public class LuceneIndexBuilder
 		}
 	}
 
+	
+	/**
+	 *  Close index for his integrity
+	 */
 	public void close() {
 		try {
 			this.indexWriter.close();

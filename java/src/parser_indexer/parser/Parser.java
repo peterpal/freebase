@@ -20,26 +20,38 @@ import java.util.ArrayList;
 import java.util.zip.GZIPInputStream;
 
 
+
+/**
+ * Parse triplets from freebase to objects and generates XML output
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class Parser
 {
-
+	// parsed objects stored in Subject class instances
 	private ArrayList<Subject> subjects = new ArrayList<Subject>();
+	// actually parsed object
 	private Subject subject = null;
 	
+	// XML output file name
 	private String output = null;
+	
+	// counter: saved objects in XML file
 	private int objectsInOutput = 0;
+	
+	// number of parsed object triggering writing to file
 	private int saveAfter = 0;
 	
 	
 	public static void main(String[] args) throws Exception
 	{
 		
-		// parser output
+		// Parser initialization with output filename and "save after" attribute
 		Parser parser = new Parser("data_tmp/freebase-rdf-2014-10-05-00-00_output_EN.xml", 10000);
 		
 		try
 		{
-			// parse file
+			// start parsing provided freebase dump in gzip format
 			parser.parseGzipFile("data_tmp/freebase-rdf-2014-10-05-00-00_names_aliases_types_en_only.gz");
 			
 		} 
@@ -60,7 +72,7 @@ public class Parser
 	
 	
 	
-	// output to file, subjects are flush after <saveAfter> parsed objects
+	// output to file, subjects are flush
 	public Parser(String output, int saveAfter)
 	{
 		
@@ -73,30 +85,52 @@ public class Parser
 	
 	public ArrayList<Subject> getSubjects()
 	{
-		
-		return this.subjects;
-		
+		return this.subjects;	
 	}
 	
 	
-	
+	/**
+	 * Parse triplets from freebase dump to Triplet object
+	 * @param line
+	 * @return Triplet
+	 */
 	private Triplet parseTripletFromLine(String line)
 	{
+		/* triplet: 
+		 		<http://rdf.freebase.com/ns/g.11vjz1ynm>  <http://rdf.freebase.com/ns/type.object.type> <http://rdf.freebase.com/ns/measurement_unit.dated_percentage>  .
+		*/
 		
 		// split line on >
 		String[] line_components = line.split(">");
 		
-		// clean components - remove <, remove url, trim spaces and remove " and @en
+		/* line_components: 
+		 		<http://rdf.freebase.com/ns/g.11vjz1ynm
+		 		<http://rdf.freebase.com/ns/type.object.type
+ 				<http://rdf.freebase.com/ns/measurement_unit.dated_percentage
+  				.
+		*/
 		
+		// clean components - remove <, remove url, trim spaces and remove " and @en
 		String subject = line_components[0].replace("http://rdf.freebase.com/ns/", "").replace("<", "").replace("\"","").trim();;
 		String predicate = line_components[1].replace("http://rdf.freebase.com/ns/", "").replace("<", "").replace("\"","").trim();;
 		String object = line_components[2].replace("&", "&amp;").replace("http://rdf.freebase.com/ns/", "").replace("<", "").replace("\"","").trim().split("@en")[0];
+		
+		// subject: g.11vjz1ynm
+		// predicate: type.object.type
+		// object: measurement_unit.dated_percentage
 		
 		// <subject> <predicate> <object>
 		return new Triplet(subject, predicate, object);
 		
 	}
 	
+	/**
+	 * provide parsing functionality from freebase dump in gzip format
+	 * parsed objects are stored in arraylist
+	 * objects can be flushed to file in XML format
+	 * @param fileName
+	 * @throws Exception
+	 */
 	public void parseGzipFile(String fileName) throws Exception {
 		
 		InputStream fileInputStream; 
@@ -256,27 +290,36 @@ public class Parser
 	*/
 	
 	
-	
+	/**
+	 * function handling writing XML to output file
+	 * function is called after each parsed object
+	 * @param lastSubjects
+	 * @throws Exception
+	 */
 	private void writeToFile(Boolean lastSubjects) throws Exception{
 		
+		// if output isn´t defined, do nothing
 		if(this.output == null){
 			return;
 		}
 		
+		// if is reached last portion of subjects from freebase dump, or required number of object is parsed, write objects to file
 		if(lastSubjects || subjects.size() >= this.saveAfter){
 			
 			System.out.println("writing to file " + this.output + ". Objects: " + this.objectsInOutput);
 			
+			// append to output file
 			FileOutputStream fstream = new FileOutputStream(this.output, true);
 	        //BufferedWriter out = new BufferedWriter(fstream);
 			
-	        // write opening root tag 
+	        // on the beginning, write opening root tag <objects> 
 			if(this.objectsInOutput == 0){
 				String s = "<objects>\n";
 				byte[] out = UnicodeUtil.convert(s.getBytes(), "UTF-8");
 				fstream.write(out);
 			}
 	        
+			// write all parsed objects with name attribute
 			for(int i = 0; i < subjects.size(); i++){
 				
 				if(subjects.get(i).hasProperty("name", null)){
@@ -289,7 +332,7 @@ public class Parser
 				
 			}		
 			
-			// write closing root tag
+			// write closing root tag </objects> after last parsed objects
 			if(lastSubjects){
 				String s = "</objects>\n";
 				byte[] out = UnicodeUtil.convert(s.getBytes(), "UTF-8");
@@ -301,6 +344,7 @@ public class Parser
 			
 			//System.out.println("----------------------------------");
 		
+			// empty array list with parsed objects
 			subjects.clear();			
 		
 		}

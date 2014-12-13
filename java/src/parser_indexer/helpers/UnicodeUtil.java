@@ -12,6 +12,12 @@ import java.io.PushbackInputStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 
+
+/**
+ * function to escaping characters
+ *
+ *
+ */
 public class UnicodeUtil {
 
 	public static byte[] convert(byte[] bytes, String encout) throws Exception {
@@ -33,7 +39,7 @@ public class UnicodeUtil {
 		BufferedReader br = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(bytes, uis.getBOMOffset(), bytes.length), enc));
 		Writer w = new BufferedWriter(new OutputStreamWriter(out, encout));
 
-		// dont write a BOM for ascii(out) as the OutputStreamWriter
+		// don´t write a BOM for ascii(out) as the OutputStreamWriter
 		// will not process it correctly.
 		if (BOM != null && unicodeOutputReqd) {
 			w.write(BOM);

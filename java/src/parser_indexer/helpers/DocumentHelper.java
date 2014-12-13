@@ -2,9 +2,19 @@ package parser_indexer.helpers;
 
 import org.apache.lucene.document.Document;
 
+
+/**
+ * Helper functions for Lucene Document object
+ * @author Bc. Kristina Misikova
+ *
+ */
 public class DocumentHelper {
 	
-	// toString method for lucene Document class
+	/**
+	 * To string method for Lucene Document
+	 * @param doc
+	 * @return
+	 */
 	public static String docToString(Document doc)
 	{
 		String stringDoc = "";

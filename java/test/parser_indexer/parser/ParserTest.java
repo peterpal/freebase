@@ -1,4 +1,4 @@
-package parser_indexer.tests;
+package parser_indexer.parser;
 
 import static org.junit.Assert.*;
 
@@ -10,22 +10,32 @@ import org.junit.Test;
 import parser_indexer.parser.Parser;
 import parser_indexer.parser.Subject;
 
+
+/**
+ * 
+ * @author Bc. Krisitna Misikova
+ * 
+ * Parse provided sample file to check corret functionality of parser.
+ * This is template test - it can be modified to parse any file and any object. 
+ * 
+ */
 public class ParserTest
 {
 
 	private Parser parser = null;
 	
 	
-	// simple test initialisation
+	// simple test initialization
 	public ParserTest() throws Exception
 	{
 		
-		// initialize parser without output file (parsed object are held in memory)
+		// instantiate Parser object, no params = parsed data will be stored in memory
 		this.parser = new Parser();
 		
 		try
 		{
-			parser.parseFile("sample_freebase-rdf-2014-09-21-00-0_input");
+			// Input file for parser - required format: triplets (https://developers.google.com/freebase/data)
+			parser.parseFile("../../../../data/sample_freebase-rdf-2014-09-21-00-0_input");
 		} catch (IOException e)
 		{
 			e.printStackTrace();
@@ -39,7 +49,7 @@ public class ParserTest
 	@Test
 	public void numberOfResultsTest()
 	{
-		
+		// check if number of parsed objects is correct
 		ArrayList<Subject> parseResult = parser.getSubjects();
 		
 		assertEquals(17, parseResult.size());		
@@ -51,7 +61,7 @@ public class ParserTest
 	@Test
 	public void numberOfResultsWithNameTest()
 	{
-		
+		// check if number of parsed objects that contains name attribute is correct
 		ArrayList<Subject> parseResult = parser.getSubjects();
 		
 		int count = 0;
@@ -72,7 +82,7 @@ public class ParserTest
 	@Test
 	public void numberOfResultsWithAnyAliasTest()
 	{
-		
+		// check if number of parsed objects with one or more aliases attributes is correct
 		ArrayList<Subject> parseResult = parser.getSubjects();
 		
 		int count = 0;
@@ -90,24 +100,31 @@ public class ParserTest
 	
 	
 	
+	/**
+	 *  Test first parsed object and his attributes
+	 */
 	@Test
 	public void firstSubjectIsCompleteTest()
 	{
-		
 		ArrayList<Subject> parseResult = parser.getSubjects();
 		
+		// first parsed subject
 		Subject subject = parseResult.get(0);
 		
+		// check if object has desired attributes with correct values
 		assertTrue(subject.hasProperty("id", "m.011fdsb9"));
 		assertTrue(subject.hasProperty("type", "film.performance"));
 		
+		// check if name and alias doesn´t exist
 		assertFalse(subject.hasProperty("name", null));
 		assertFalse(subject.hasProperty("alias", null));
 		
 	}
 	
 	
-	
+	/**
+	 *  Test second parsed object and his attributes
+	 */
 	@Test
 	public void secondSubjectIsCompleteTest()
 	{
@@ -116,18 +133,21 @@ public class ParserTest
 		
 		Subject subject = parseResult.get(1);
 		
+		// check if object has desired attributes with correct values
 		assertTrue(subject.hasProperty("id", "m.011fdvnf"));
 		assertTrue(subject.hasProperty("name", "Good Friday nominal occurrence (Valais, 2007)"));
-		
 		assertTrue(subject.hasProperty("type", "base.schemastaging.holiday_occurrence"));
 		assertTrue(subject.hasProperty("type", "common.topic"));
 		
+		// check if alias doesn´t exist
 		assertFalse(subject.hasProperty("alias", null));
 		
 	}																							
 
 	
-	
+	/**
+	 *  Test third parsed object and his attributes
+	 */
 	@Test
 	public void thirdSubjectIsCompleteTest()
 	{
@@ -151,7 +171,9 @@ public class ParserTest
 	}
 	
 	
-	
+	/**
+	 *  Test fourth parsed object and his attributes
+	 */
 	@Test
 	public void fourthSubjectIsCompleteTest()
 	{

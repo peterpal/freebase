@@ -1,24 +1,37 @@
 package parser_indexer.searcher;
 
 import java.awt.EventQueue;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
 
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.JButton;
 import javax.swing.UIManager;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JPanel;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.JTextPane;
+
+import java.awt.Font;
+import java.io.File;
+
+import javax.swing.JList;
+import javax.swing.AbstractListModel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -29,6 +42,15 @@ import org.apache.lucene.store.SimpleFSDirectory;
 
 import parser_indexer.helpers.DocumentHelper;
 
+import javax.swing.JTextArea;
+
+
+/**
+ * Search tool window
+ * 
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class SearchWindow {
 
 	private JFrame frmSearcher;
@@ -115,23 +137,33 @@ public class SearchWindow {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
+				// after click on Search button:
 				
+				
+				// get text from search field
 				String querystr = textField.getText();
 				
 				try {
+					// clear result textfield
 					textArea.setText("");
 					
+					// create query parser with desired search query string
 					queryParser = new QueryParser(comboBox.getSelectedItem().toString(), analyzer).parse(querystr);
 					
+					// open index with reader objects
 					IndexReader reader = DirectoryReader.open(index);
 					
+					// initialize searcher
 					IndexSearcher searcher = new IndexSearcher(reader);
 				    TopScoreDocCollector collector = TopScoreDocCollector.create(200, true);
 				    
+				    // search in index and collect results
 				    searcher.search(queryParser, collector);
 				    
 				    ScoreDoc[] hits = collector.topDocs().scoreDocs;
-				    				    
+				    				
+				    
+				    //ctreate result string from frst 200 results
 				    String resultString = "";
 				    
 				    for(int i=0;i<hits.length;++i) 
@@ -142,16 +174,13 @@ public class SearchWindow {
 				      resultString += DocumentHelper.docToString(d) + "\n";
 				    }
 				    
-				    if(hits.length == 0) {
-				    	textArea.setText("no results for: " + textField.getText());
-				    } else {
-				    	textArea.setText(resultString);
-				    }
-				    
-				    
+				    // write result string in result textarea
+				    textArea.setText(resultString);
 				    
 				    
 				} catch (Exception e1) {
+					
+					System.out.println(e1.getMessage());
 					
 				}
 				

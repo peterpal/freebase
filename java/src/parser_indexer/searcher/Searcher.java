@@ -17,6 +17,12 @@ import org.apache.lucene.util.Version;
 
 import parser_indexer.helpers.DocumentHelper;
 
+
+/**
+ * Prototype of search application, based on example from Lucene (http://lucene.apache.org/)
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class Searcher {
 
 	public static void main(String[] args)

@@ -10,7 +10,11 @@ import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
 
-// class for handling sax events
+/**
+ * Handles events raised by SAX, eg. startElement
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class CustomHandler extends DefaultHandler
 {
 
@@ -21,17 +25,21 @@ public class CustomHandler extends DefaultHandler
     {
     	super();
     	
-    	// store reference to indexer
+    	// store reference to indexer for accessing add function
     	this.luceneIndexBuilder = luceneIndexBuilder;
 	}
     
-    // SAX events handlers
+ // SAX events handlers
         
     @ Override
     public void fatalError(org.xml.sax.SAXParseException arg0){
     	System.out.println("Fatal error");
     }
     
+    /**
+     * if SAX parser parse starting element, calls this function
+     * we handle this event as we want, depending on starting element name
+     */
  	@ Override
     public void startElement (String uri, String name, String qName, Attributes atts)
  	{
@@ -58,8 +66,10 @@ public class CustomHandler extends DefaultHandler
  	
  	}
  	
- 	// custom functions for processing data
- 	
+ 	/**
+ 	 * new object -> store previous to index and create new instance for next object
+ 	 * @param atts
+ 	 */
  	private void handleObject(Attributes atts)
     {    	
     	// store previous object to lucene
@@ -83,6 +93,10 @@ public class CustomHandler extends DefaultHandler
 		
     }
     
+ 	/**
+ 	 * append type attribute to document
+ 	 * @param atts
+ 	 */
     private void handleType(Attributes atts)
     {
     	// append type to object
@@ -91,6 +105,10 @@ public class CustomHandler extends DefaultHandler
     	
     }
     
+    /**
+     * append alias attribute to document
+     * @param atts
+     */
     private void handleAlias(Attributes atts)
     {
     	// append alias to object

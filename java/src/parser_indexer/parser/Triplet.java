@@ -1,5 +1,11 @@
 package parser_indexer.parser;
 
+
+/**
+ * object containing parsed data from single line - triplet of freebase dump 
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class Triplet 
 {
 
@@ -18,6 +24,10 @@ public class Triplet
 		
 	}
 	
+	/**
+	 * validation if this is triplet object with content we want (required only if we parse unfiltered freebase)
+	 * @return
+	 */
 	public Boolean isValidTriplet()
 	{
 		// evaluate if triplet is what we need
@@ -30,6 +40,7 @@ public class Triplet
 			//return false;
 		}
 		
+		// we want only triplets with predicates type, name, alias
 		if((!this.predicate.contains(".type") && !this.predicate.contains(".name") && !this.predicate.contains(".alias")))
 		{
 			return false;

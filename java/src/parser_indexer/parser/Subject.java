@@ -2,6 +2,12 @@ package parser_indexer.parser;
 
 import java.util.ArrayList;
 
+
+/**
+ * Object containing all parsed triplets for one subject
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class Subject
 {
 
@@ -18,6 +24,10 @@ public class Subject
 		
 	}
 	
+	/**
+	 * add new property providing triplet
+	 * @param t
+	 */
 	public void addProperty(Triplet t)
 	{
 		
@@ -39,11 +49,19 @@ public class Subject
 		
 	}
 	
-	// check if subject contain certain property
+	/**
+	 * check if subject contain certain property
+	 * @param propertyType
+	 * @param property
+	 * @return
+	 */
 	public Boolean hasProperty(String propertyType, String property)
 	{
 		
-		// if property isnt null, we check specific property, else we check if any property of that type exists
+		// if property isn´t null, we check specific property, else we check if any property of that type exists
+		
+		//hasProperty("alias", null)		=> has property alias with any value?
+		//hasProperty("alias", "value")		=> has property alias with value "value"?
 		
 		if(propertyType.equals("type"))
 		{
@@ -78,6 +96,9 @@ public class Subject
 		
 	}
 	
+	/**
+	 * method providing XML output for Subject
+	 */
 	public String toString()
 	{
 		

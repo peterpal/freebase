@@ -8,7 +8,12 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-// wrapper for sax 
+
+/**
+ * Wrapper for SAX, rovide parsing from XML file (streaming)
+ * @author Bc. Krisitna Misikova
+ *
+ */
 public class SaxReader
 {
 
@@ -16,7 +21,11 @@ public class SaxReader
 	
 	private String filename;
 	
-	
+	/**
+	 * Prepare SAX Reader, initialize handler with reference to luceneIndexBuilder
+	 * @param luceneIndexBuilder
+	 * @throws SAXException
+	 */
 	public SaxReader(LuceneIndexBuilder luceneIndexBuilder) throws SAXException 
 	{
 	    
@@ -29,7 +38,12 @@ public class SaxReader
 	    	    
 	}
 	
-	
+	/**
+	 * Parse objects from XML file
+	 * @param filename
+	 * @throws IOException
+	 * @throws SAXException
+	 */
 	public void readFromXml(String filename) throws IOException, SAXException
 	{
 		
