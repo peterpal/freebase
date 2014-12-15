@@ -62,6 +62,8 @@ public class Parser {
 					+ ")");
 			String namespacesForName = new String("(?<predicate>type\\.object\\.name)");
 			
+			// TODO: consider also IDs, starting with "/ns/g."
+			
 			//Original regex: ^<http://rdf\.freebase\.com/ns/m\.(?<subject>\w+)>\s+<http://rdf\.freebase\.com/ns/(?<predicate>(music\.artist\.track)|(award\.award_winner\.awards_won)|(music\.artist\.genre))>\s+<http://rdf\.freebase\.com/ns/m\.(?<object>\w+)>\s+\.\s*$
 			String patternForID = new String("^<http://rdf\\.freebase\\.com/ns/m\\.(?<subject>\\w+)>\\s+<http://rdf\\.freebase\\.com/ns/"
 					+ namespacesForID + ">\\s+<http://rdf\\.freebase\\.com/ns/m\\.(?<object>\\w+)>\\s+\\.\\s*$");

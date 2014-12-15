@@ -52,6 +52,12 @@ public class Service {
 		
 		searchString = args[0];
 		
+		//input argument examples:
+		//searchString = "reggae*";
+		//searchString = "trap";
+		//searchString = "underground";
+		//searchString = "trance";
+		
 		Set<String> uniqueResults;
 		Iterator<String> iter;
 		Iterator<Vector<String>> iterArtist;
@@ -115,7 +121,7 @@ public class Service {
 			iter = awardedArtists.iterator();
 			while (iter.hasNext()){
 				searchString = iter.next();
-				result = SearchEngine.searchString(searchString, "object_ID", "./data/artists_genres_awards_tracks/index-names", NAMES_LIMIT, "name", false);
+				result = SearchEngine.searchString(searchString, "object_ID", "./data/artists_genres_awards_tracks/index-names-filtered", NAMES_LIMIT, "name", false);
 
 				if (result.size() < 1){	//object name not found!
 					//System.err.println("Artist name '" + searchString + "' not found!");
@@ -158,7 +164,7 @@ public class Service {
 				iterVecString = iterArtist.next();
 				for (int i = 0; i < iterVecString.size(); i++){
 					searchString = iterVecString.get(i);
-					result = SearchEngine.searchString(searchString, "object_ID", "./data/artists_genres_awards_tracks/index-names", NAMES_LIMIT, "name", false);
+					result = SearchEngine.searchString(searchString, "object_ID", "./data/artists_genres_awards_tracks/index-names-filtered", NAMES_LIMIT, "name", false);
 					
 					iter = result.iterator();
 					

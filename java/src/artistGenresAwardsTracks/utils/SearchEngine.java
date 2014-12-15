@@ -42,6 +42,78 @@ import org.apache.lucene.util.Version;
 public class SearchEngine {
 
 	/**
+	 * Extracts only necessary records from parsed object names, which contain names of all freebase object types. Necessary object types are artist and track.
+	 * Genre names are extracted in method {@link src.artistGenresAwardsTracks.utils.SearchEngine.extractGenreNames extractGenreNames}
+	 * Method creates file, containing in each line fields object_ID and object_name. Fields are tab-separated.<br />
+	 * <br />
+	 * General purpose of this method is the same as purpose of class {@link src.artistGenresAwardsTracks.utils.Splitter Splitter},
+	 * except now is additionally used already created index for genres, artists and tracks.
+	 */
+	public static void extractArtistAndTrackNames(){
+		String inputFilePath = "./data/artists_genres_awards_tracks/parsed_files/object_ID-name.txt";
+		String outputFilePath = "./data/artists_genres_awards_tracks/parsed_files/object_ID-name_filtered.txt";
+		String indexDirPath = "./data/artists_genres_awards_tracks/index-tracks/";
+		InputStream fileStream;
+		
+		try {
+			fileStream = new FileInputStream(inputFilePath);
+			Reader decoder = new InputStreamReader(fileStream, "UTF-8");
+			BufferedReader bufferedReader = new BufferedReader(decoder);
+			
+			IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(indexDirPath)));
+		    IndexSearcher searcher = new IndexSearcher(reader);
+		    Analyzer analyzer = new StandardAnalyzer(); 
+		    QueryParser parser = new QueryParser("artist_ID", analyzer);
+		    QueryParser parser2 = new QueryParser("track_ID", analyzer);
+		    Query query, query2;
+		    TopDocs results, results2;
+		    ScoreDoc[] hits;
+		    Document doc;
+			
+			String pattern = "^(?<objectID>[^\\t]+)\\t(?<name>[^\\t]+)$";
+			Pattern pat = Pattern.compile(pattern);
+			Matcher match;
+			
+			int lineCounter = 0, tenThousand = 0, questionable = 0;
+			String readLine, object_ID = ".", track_ID = ".", last_genre_ID = ".", object_name;	
+			FileWriter outputFileWriter = new FileWriter(outputFilePath, false);	//don't append
+			
+			Set<String> uniqueObjects = new HashSet<String>();
+			
+			while ( (readLine = bufferedReader.readLine()) != null ){
+				lineCounter++;
+				
+				match = pat.matcher( readLine );
+				if (!match.matches()) throw new Exception("Pattern not matched!");
+				
+				object_ID = match.group("objectID");
+				
+				 query = parser.parse(object_ID);
+				 query2 = parser2.parse(object_ID);
+				 results = searcher.search(query, 2);
+				 results2 = searcher.search(query2, 2);
+				 
+				 if (results.totalHits > 0 || results2.totalHits > 0) {
+					 outputFileWriter.write(readLine + "\n");
+				 }
+				
+				if (lineCounter == 10000){	// 10.000
+					tenThousand++;
+					lineCounter = 0;				
+					System.out.println(String.format("%d records processed...", tenThousand*10000));
+				}
+			}
+			
+			reader.close();
+			outputFileWriter.close();	//...and flush to stream
+			bufferedReader.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
 	 * Creates file, containing in each line fields genre_ID and genre_name, for quicker searching through all existing genres. Fields are tab-separated.<br />
 	 * <br />
 	 * General purpose of this method is the same as purpose of class {@link src.artistGenresAwardsTracks.utils.Splitter Splitter},

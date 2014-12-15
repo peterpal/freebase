@@ -321,6 +321,64 @@ public class IndexEngine {
 	}
 	
 	/**
+	 * Creates index from file "genre_ID-genre_name.txt" in directory "index-genre-names". 
+	 * Every line in this file is modeled as one Apache Lucene document, which is added to the index.
+	 * One document contains two fields: <br />
+	 * <br />
+	 * genre_ID - indexed, not analyzed, stored <br />
+	 * genre_name - indexed, analyzed, stored <br />
+	 * <br />
+	 * This way, it's possible to search for genre names and get their assigned genre_IDs.
+	 * StandardAnalyzer is used for tokenization.<br />
+	 * <br />
+	 * This method needs to be called after method {@link src.artistGenresAwardsTracks.utils.SearchEngine#extractGenreNames() SearchEngine.extractGenreNames()}
+	 */
+	public static void indexFilteredNames(){
+		String indexDirPath = "./data/artists_genres_awards_tracks/index-names-filtered/";
+		String inputFile = "./data/artists_genres_awards_tracks/parsed_files/object_ID-name_filtered.txt";
+		String pattern = "^(?<objectID>[^\\t]+)\\t(?<name>[^\\t]+)$";
+		
+		System.out.println("Creating index NAMES-FILTERED...");
+		try {
+			Date start = new Date();
+			
+			Analyzer analyzer = new StandardAnalyzer(); 
+			IndexWriterConfig iwc = new IndexWriterConfig(Version.LUCENE_4_10_2, analyzer);
+			iwc.setOpenMode(OpenMode.CREATE);
+			Directory dir = FSDirectory.open(new File(indexDirPath));
+			IndexWriter writer = new IndexWriter(dir, iwc);
+
+        	FileInputStream fileStream = new FileInputStream(inputFile);
+        	Reader decoder = new InputStreamReader(fileStream, "UTF-8");
+			BufferedReader bufferedReader = new BufferedReader(decoder);
+          
+			Pattern pat = Pattern.compile(pattern);
+			Matcher match;
+			
+			Document doc;
+			String readLine;
+			while ( (readLine = bufferedReader.readLine()) != null ){
+				
+				match = pat.matcher( readLine );
+				if (!match.matches()) throw new Exception("Pattern not matched!");
+				
+				doc = new Document();		
+				doc.add(new StringField("object_ID", match.group("objectID"), Field.Store.YES));
+				doc.add(new TextField("name", match.group("name"), Field.Store.YES));
+				writer.addDocument(doc);
+			}
+			
+			bufferedReader.close();
+			writer.close();
+	        
+	        Date end = new Date();
+	        System.out.println("Index NAMES-FILTERED created. " + (end.getTime() - start.getTime()) + " total milliseconds\n\n");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
 	 * Main method for calling individual index methods, mainly for debugging reasons.
 	 * 
 	 * @param args

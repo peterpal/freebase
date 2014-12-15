@@ -10,7 +10,7 @@ import src.artistGenresAwardsTracks.utils.Splitter;
 
 /**
  * Preprocessor class ensures, that all necessary preconditions for running {@link src.artistGenresAwardsTracks.Service Service} class are met.
- * Freebase data dump is parsed and split to five specific files and subsequently indexed.
+ * Freebase data dump is parsed and split to six specific files and subsequently indexed.
  * 
  * @author stefanlinner
  *
@@ -36,6 +36,9 @@ public class Preprocessor {
 		//Extract genre names using created index NAMES, save to separate file and index
 		SearchEngine.extractGenreNames();
 		IndexEngine.indexGenreNames();
+		
+		SearchEngine.extractArtistAndTrackNames();
+		IndexEngine.indexFilteredNames();
 	}
 
 }
