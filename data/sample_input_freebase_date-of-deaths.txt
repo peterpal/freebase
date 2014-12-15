@@ -1,0 +1,2 @@
+<http://rdf.freebase.com/ns/m.04nfrq>	<http://rdf.freebase.com/ns/people.deceased_person.date_of_death>	"2000-09-22"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0zn10r8>	<http://rdf.freebase.com/ns/people.deceased_person.date_of_death>	"1843-09-22"^^<http://www.w3.org/2001/XMLSchema#date>	.
