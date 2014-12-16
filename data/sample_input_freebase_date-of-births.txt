@@ -28,3 +28,6 @@
 <http://rdf.freebase.com/ns/m.0zwkv01>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1927-05-22"^^<http://www.w3.org/2001/XMLSchema#date>	.
 <http://rdf.freebase.com/ns/m.0zwpq2l>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1951-03-15"^^<http://www.w3.org/2001/XMLSchema#date>	.
 <http://rdf.freebase.com/ns/m.0zxjqbg>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1977"^^<http://www.w3.org/2001/XMLSchema#gYear>	.
+<http://rdf.freebase.com/ns/m.04nfrq>   <http://rdf.freebase.com/ns/people.person.date_of_birth>	"1974-10-22"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.01wd0p>   <http://rdf.freebase.com/ns/people.person.date_of_birth>    "1968-02-07"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0123456>   <http://rdf.freebase.com/ns/people.person.date_of_birth>    "1700"^^<http://www.w3.org/2001/XMLSchema#date>	.
