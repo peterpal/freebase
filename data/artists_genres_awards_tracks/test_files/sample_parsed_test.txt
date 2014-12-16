@@ -1,0 +1,57 @@
+02l840	music.artist.track	011jy9l
+02l840	type.object.name	Get 'em High (instrumental version)
+02l840	music.artist.track	0tw7z8
+02l840	type.object.name	I'll Fly Away
+02l840	music.artist.track	0tw7_c
+02l840	type.object.name	Workout Plan
+02l840	music.artist.track	0y2rd7
+02l840	type.object.name	Two Words
+02l840	music.artist.track	0y2rcc
+02l840	type.object.name	Intro
+02l840	music.artist.track	0y2rd0
+02l840	type.object.name	Jesus Walks
+02l840	music.artist.track	0y2rf_
+02l840	type.object.name	Digital Thugz (feat. Mikkey of Cashmoney)
+02l840	music.artist.track	0y2rh2
+02l840	type.object.name	03' Electric Relaxation (feat. Consequence)
+02l840	music.artist.track	0zm056
+02l840	type.object.name	Jesus Walks
+02l840	award.award_winner.awards_won	0j1th10
+02l840	award.award_winner.awards_won	0j1th2v
+02l840	award.award_winner.awards_won	0j1thnm
+02l840	award.award_winner.awards_won	0j1thrc
+02l840	music.artist.genre	025t5rz
+02l840	type.object.name	Pop-rap
+02l840	music.artist.genre	012yc
+02l840	type.object.name	Alternative hip hop
+02l840	music.artist.genre	0gywn
+02l840	type.object.name	Soul music
+02l840	music.artist.genre	06j6l
+02l840	type.object.name	Rhythm and blues
+02l840	music.artist.genre	064t9
+02l840	type.object.name	Pop music
+01vw20h	type.object.name	Jay-Z
+01vw20h	type.object.name	Girls, Girls, Girls
+01vw20h	music.artist.track	0scfmh
+01vw20h	type.object.name	Excuse Me Miss
+01vw20h	music.artist.track	0151wx7
+01vw20h	type.object.name	99 Problems
+01vw20h	award.award_winner.awards_won	0jz_kn5
+01vw20h	award.award_winner.awards_won	0j_t7_w
+01vw20h	award.award_winner.awards_won	0k07gp2
+01vw20h	award.award_winner.awards_won	04fk__c
+01vw20h	music.artist.genre	036jv
+01vw20h	type.object.name	Gangsta rap 
+01vw20h	music.artist.genre	016_nr
+01vw20h	type.object.name	East Coast hip hop
+01vw20h	music.artist.genre	01f24q
+01vw20h	type.object.name	Mafioso rap
+01vw20h	music.artist.genre	0glt670
+01vw20h	type.object.name	Hip hop music
+0g9zvmb	type.object.name	Schoolboy Q
+0g9zvmb	music.artist.track	0gd748x
+0g9zvmb	type.object.name	Live Again
+0g9zvmb	music.artist.track	0gd7jld
+0g9zvmb	type.object.name	Fuck Ya Hip-Hop
+0g9zvmb	music.artist.track	0gd7lrp
+0g9zvmb	type.object.name	To the Beat (F'd Up)
