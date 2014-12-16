@@ -1,12 +1,9 @@
 package sk.fiit.stuba.ir.badal.main;
 
-import sk.fiit.stuba.ir.badal.controller.Controller;
 import sk.fiit.stuba.ir.badal.view.MainView;
 
-import java.io.IOException;
-
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Main {
     public static void main(String[] args) {

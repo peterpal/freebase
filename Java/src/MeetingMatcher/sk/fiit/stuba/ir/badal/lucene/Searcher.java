@@ -12,7 +12,7 @@ import org.apache.lucene.store.Directory;
 import java.io.IOException;
 
 /**
- * Created by delve on 30/11/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Searcher {
 	private IndexReader reader   = null;

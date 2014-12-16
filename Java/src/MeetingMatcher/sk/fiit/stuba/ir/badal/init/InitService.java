@@ -18,7 +18,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by delve on 01/12/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class InitService {
 

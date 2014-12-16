@@ -10,7 +10,7 @@ import sk.fiit.stuba.ir.badal.model.PersonCollection;
 import java.io.IOException;
 
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Controller {
 	private        LuceneService lucene = null;

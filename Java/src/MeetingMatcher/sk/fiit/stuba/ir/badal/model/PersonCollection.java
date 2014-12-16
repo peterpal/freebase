@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class PersonCollection implements Iterable<Person> {
     private Map<String, Person> map = null;

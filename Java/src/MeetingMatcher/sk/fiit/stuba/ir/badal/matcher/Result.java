@@ -3,7 +3,7 @@ package sk.fiit.stuba.ir.badal.matcher;
 import sk.fiit.stuba.ir.badal.model.Person;
 
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Result {
 

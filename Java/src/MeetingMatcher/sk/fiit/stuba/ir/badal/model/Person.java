@@ -4,7 +4,7 @@ package sk.fiit.stuba.ir.badal.model;
 import java.util.Date;
 
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Person {
 
@@ -40,33 +40,6 @@ public class Person {
 		this.dateOfDeath = dateOfDeath;
 		return this;
 	}
-
-	/*public long getDateOfBirthAsTime() {
-		DateFormat formatter = new SimpleDateFormat(Person.FORMAT_DATE_FULL);
-		Date date = null;
-		try {
-			date = formatter.parse(this.dateOfBirth);
-		} catch (ParseException e) {
-			System.out.println("Parse exception");
-			System.exit(1);
-		}
-		return date.getTime();
-	}
-
-	public long getDateOfDeathAsTime() {
-		if (this.dateOfDeath == null) {
-			return System.currentTimeMillis();
-		}
-		DateFormat formatter = new SimpleDateFormat(Person.FORMAT_DATE_FULL);
-		Date date = null;
-		try {
-			date = formatter.parse(this.dateOfDeath);
-		} catch (ParseException e) {
-			System.out.println("Parse exception");
-			System.exit(1);
-		}
-		return date.getTime();
-	}*/
 
 	public String getId() {
 		return id;

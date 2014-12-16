@@ -6,7 +6,7 @@ import sk.fiit.stuba.ir.badal.matcher.Result;
 import javax.swing.*;
 
 /**
- * @author delve
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class MainView extends javax.swing.JFrame {
 

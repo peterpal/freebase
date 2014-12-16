@@ -17,7 +17,7 @@ import sk.fiit.stuba.ir.badal.model.PersonCollection;
 import java.io.*;
 
 /**
- * Created by delve on 23/11/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class LuceneService {
 	public static final String PATH_INDEX = "./index";

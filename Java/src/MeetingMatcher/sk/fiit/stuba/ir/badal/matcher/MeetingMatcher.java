@@ -5,7 +5,7 @@ import sk.fiit.stuba.ir.badal.model.Person;
 import sk.fiit.stuba.ir.badal.model.PersonCollection;
 
 /**
- * Created by delve on 11/10/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class MeetingMatcher {
 

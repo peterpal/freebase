@@ -6,7 +6,7 @@ import sk.fiit.stuba.ir.badal.model.PersonCollection;
 import java.util.Iterator;
 
 /**
- * Created by delve on 13/12/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class PersonIterator implements Iterator<Person> {
 	private PersonCollection collection = null;

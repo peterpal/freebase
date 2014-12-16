@@ -11,7 +11,7 @@ import java.text.ParseException;
 import java.util.Date;
 
 /**
- * Created by delve on 23/11/14.
+ * @author Matej Bádal <matejbadal@gmail.com>
  */
 public class Indexer {
 	public static final String KEY_NAME  = "name";
