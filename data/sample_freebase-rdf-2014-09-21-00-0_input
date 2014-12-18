@@ -1,0 +1,62 @@
+<http://rdf.freebase.com/ns/m.011fdsb9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.performance>   .
+<http://rdf.freebase.com/ns/m.011fdvnf> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.schemastaging.holiday_occurrence>      .
+<http://rdf.freebase.com/ns/m.011fdvnf> <http://rdf.freebase.com/ns/type.object.name>   "Good Friday nominal occurrence (Valais, 2007)"@en      .
+<http://rdf.freebase.com/ns/m.011fdvnf> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.name>   "Werner Riedl"@en       .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable> .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.animate> .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.agent>   .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.group_member> .
+<http://rdf.freebase.com/ns/m.011ff4v1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/people.person>      .
+<http://rdf.freebase.com/ns/m.011ff5wg> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.performance>   .
+<http://rdf.freebase.com/ns/m.011ff609> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.performance>   .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.name>   "Jessica Fuerst"@en     .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.film_costumer_designer>        .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable> .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.agent>   .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/people.person>      .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/common.topic.alias> "Virginia 'Ginny' Van Jones"@en .
+<http://rdf.freebase.com/ns/m.011ff78s> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.animate> .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.agent>   .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.animate> .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.group_member> .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable> .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/people.person>      .
+<http://rdf.freebase.com/ns/m.011ff8ng> <http://rdf.freebase.com/ns/type.object.name>   "Adam De Micco"@en      .
+<http://rdf.freebase.com/ns/m.011ffbq1> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/freebase.review_flag>       .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.name>   "Patricio Barraza"@en   .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/common.topic.alias> "Patricio \"Pato\" Barraza"@en  .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/people.person>      .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/common.topic.alias> "Pato Barraza"@en       .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.agent>   .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.animate> .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.group_member> .
+<http://rdf.freebase.com/ns/m.011fffwz> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable> .
+<http://rdf.freebase.com/ns/m.011ffk02> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/sports.sports_team_roster>  .
+<http://rdf.freebase.com/ns/m.011fflfh> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.performance>   .
+<http://rdf.freebase.com/ns/m.011ffqgh> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.film_regional_release_date>    .
+<http://rdf.freebase.com/ns/m.011ffrtl> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.film_cut>      .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.recording>    .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/type.object.name>   "Dom styr våra liv"@en  .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/common.topic.alias> "Dom styr vara liv"@en  .
+<http://rdf.freebase.com/ns/m.011ffsg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.film_character>        .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/fictional_universe.fictional_character>     .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.name>   "Policeman #1"@en       .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .
+<http://rdf.freebase.com/ns/m.011ffst_> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011ffyfs> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.performance>   .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.agent>   .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.name>   "Sumathi"@en    .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/film.actor> .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.animate> .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable> .
+<http://rdf.freebase.com/ns/m.011fg2c9> <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/people.person>      .

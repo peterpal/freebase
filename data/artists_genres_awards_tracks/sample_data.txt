@@ -1,0 +1,66 @@
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Kanye West"@en .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Kanye West"@sv .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "\u80af\u4f0a\xb7\u5a01\u65af\u7279"@zh-TW .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.011jy9l>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>   "Get 'em High (instrumental version)"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0tw7z8>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "I'll Fly Away"@en  . 
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0tw7_c>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Workout Plan"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0y2rd7>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Two Words"@en  . 
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0y2rcc>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Intro"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>   <http://rdf.freebase.com/ns/m.0y2rd0>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Jesus Walks"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0y2rf_>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Digital Thugz (feat. Mikkey of Cashmoney)"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0y2rh2>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "03' Electric Relaxation (feat. Consequence)"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0zm056>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Jesus Walks"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0j1th10>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0j1th2v>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0j1thnm>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0j1thrc>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.025t5rz>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Pop-rap"@en  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.012yc>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Alternative hip hop"@en  . 
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.0gywn>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Soul music"@en  . 
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.06j6l>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Rhythm and blues"@en  . 
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.064t9>  .
+<http://rdf.freebase.com/ns/m.02l840>    <http://rdf.freebase.com/ns/type.object.name>    "Pop music"@en  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "\u040f\u0435\u0458-\u0417\u0438"@sr .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Jay-Z"@sk .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Jay-Z"@en .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0xcwl9>
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Girls, Girls, Girls"@en  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0scfmh>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>   "Excuse Me Miss"@en  . 
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0151wx7>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "99 Problems"@en  . 
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/award.award_nominee.award_nominations>    <http://rdf.freebase.com/ns/m.0x0w2wm>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0jz_kn5>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0j_t7_w>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.0k07gp2>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/award.award_winner.awards_won>    <http://rdf.freebase.com/ns/m.04fk__c>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.036jv>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Gangsta rap "@en  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.016_nr>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "East Coast hip hop"@en  . 
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.01f24q>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Mafioso rap"@en  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/music.artist.genre>    <http://rdf.freebase.com/ns/m.0glt670>  .
+<http://rdf.freebase.com/ns/m.01vw20h>    <http://rdf.freebase.com/ns/type.object.name>    "Hip hop music"@en  . 
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "Schoolboy Q"@en .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "\u0421\u043a\u0443\u043b\u0431\u043e\u0439 \u041a\u044c\u044e"@ru .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "Schoolboy Q"@pt .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0gd748x>  .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "Live Again"@en  . 
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0gd7jld>  .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "Fuck Ya Hip-Hop"@en  . 
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/music.artist.track>    <http://rdf.freebase.com/ns/m.0gd7lrp>  .
+<http://rdf.freebase.com/ns/m.0g9zvmb>    <http://rdf.freebase.com/ns/type.object.name>    "To the Beat (F'd Up)"@en  . 

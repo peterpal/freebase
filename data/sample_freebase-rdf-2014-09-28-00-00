@@ -1,0 +1,47 @@
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/music.album.releases>       <http://rdf.freebase.com/ns/m.0g1bdtt>  .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/common.topic.notable_types> <http://rdf.freebase.com/ns/m.0kpv17>   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.album>        .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.key>    "/authority/musicbrainz/b6dcdca2-6498-4233-843b-15d7731d244f"   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/common.topic.notable_for>   <http://rdf.freebase.com/ns/g.125d8rlqh>        .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.inanimate>       .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.key>    "/authority/musicbrainz/release_group/b6dcdca2-6498-4233-843b-15d7731d244f"     .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.name>   "HOLE IN THE WALL"@en   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/music.album.release_date>   "2005-08-17"^^<http://www.w3.org/2001/XMLSchema#date>   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/music.album.release_type>   <http://rdf.freebase.com/ns/m.0l14fq>   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/music.album.primary_release>        <http://rdf.freebase.com/ns/m.0g1bdtt>  .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>      <http://musicbrainz.org/release-group/b6dcdca2-6498-4233-843b-15d7731d244f>     .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/ns/music.album.artist> <http://rdf.freebase.com/ns/m.02x20b8>  .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/key/authority.musicbrainz.release_group>       "b6dcdca2-6498-4233-843b-15d7731d244f"  .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://rdf.freebase.com/key/authority.musicbrainz>     "b6dcdca2-6498-4233-843b-15d7731d244f"  .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/2000/01/rdf-schema#label>    "HOLE IN THE WALL"@en   .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/music.album>        .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/base.type_ontology.inanimate>       .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .
+<http://rdf.freebase.com/ns/m.0fw3zk3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/music.recording.tracks>     <http://rdf.freebase.com/ns/m.0mtthzk>  .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/music.recording.length>     "213.0" .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.key>    "/authority/musicbrainz/recording/4bf0be6a-e45a-443f-a9c3-8e4b4be3148a" .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/music.recording.releases>   <http://rdf.freebase.com/ns/m.0fzc6vv>  .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>      <http://musicbrainz.org/recording/4bf0be6a-e45a-443f-a9c3-8e4b4be3148a> .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.key>    "/authority/musicbrainz/4bf0be6a-e45a-443f-a9c3-8e4b4be3148a"   .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/common.topic.notable_for>   <http://rdf.freebase.com/ns/g.1255cz4vw>        .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.name>   "Kind of Blue"@en       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/common.topic.notable_types> <http://rdf.freebase.com/ns/m.0kpv11>   .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.recording>    .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/music.single>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/ns/music.recording.artist>     <http://rdf.freebase.com/ns/m.01ky6yy>  .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/key/authority.musicbrainz>     "4bf0be6a-e45a-443f-a9c3-8e4b4be3148a"  .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://rdf.freebase.com/key/authority.musicbrainz.recording>   "4bf0be6a-e45a-443f-a9c3-8e4b4be3148a"  .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/2000/01/rdf-schema#label>    "Kind of Blue"@en       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/common.topic>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/base.type_ontology.non_agent>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/music.recording>    .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/music.single>       .
+<http://rdf.freebase.com/ns/m.0fw49kg>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/base.type_ontology.abstract>        .

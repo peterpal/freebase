@@ -1,0 +1,3 @@
+<http://rdf.freebase.com/ns/m.04nfrq>	<http://rdf.freebase.com/ns/type.object.name>	"Miroslav \u0160atan"@en
+<http://rdf.freebase.com/ns/m.01wd0p>   <http://rdf.freebase.com/ns/type.object.name>    "Peter Bondra"@en
+<http://rdf.freebase.com/ns/m.0zn10r8>   <http://rdf.freebase.com/ns/type.object.name>    "John Clayton"@en
