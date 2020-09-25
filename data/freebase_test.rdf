@@ -1,0 +1,516 @@
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.125t77lmr>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://musicbrainz.org/recording/58045581-429f-4d4a-abda-770d1943a40a>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/music.single>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/music.recording.artist>	<http://rdf.freebase.com/ns/m.01r3d9y>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/music.recording.length>	"188.333"	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/common.topic.alias>	"Pulska yo"@en	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/music.recording>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/music.recording.releases>	<http://rdf.freebase.com/ns/m.034d6dt>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0kpv11>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/58045581-429f-4d4a-abda-770d1943a40a"	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/music.recording.tracks>	<http://rdf.freebase.com/ns/m.0l54ngp>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.name>	"Pulska yö"@en	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0100c5g>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/recording/58045581-429f-4d4a-abda-770d1943a40a"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.04kr>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://de.wikipedia.org/wiki/Stephen_Kwelio_Chemlany>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ru_id/5151483"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl_id/2791919"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Стивен Чемлани"@ru	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ru_title/$0427$0435$043C$043B$0430$043D$0438$002C_$0421$0442$0438$0432$0435$043D"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://nl.wikipedia.org/wiki/index.html?curid=2791919>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Chemlany"@nl	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.description>	"Стивен Квелио Чемлани — кений�?кий легкоатлет, �?пециализир�?ет�?я в марафоне.\n27 июля 2014 года �?тал �?еребряным призёром �?гр Содр�?же�?тва �? рез�?льтатом 2:11.58."@ru	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Kwelio Chemlany"@de	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://de.wikipedia.org/wiki/index.html?curid=5988950>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://fr.wikipedia.org/wiki/Stephen_Chemlany>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr_title/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ru/$0421$0442$0438$0432$0435$043D_$0427$0435$043C$043B$0430$043D$0438"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Stephen_Kwelio"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Chemlany"@fr	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_id/42268265"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/Stephen_Kwelio_Chemlany>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://ru.wikipedia.org/wiki/%27%35%3C%3B%30%3D%38,_%21%42%38%32%35%3D>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr_id/8155698"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.description>	"Stephen Kwelio Chemlany ist ein kenianischer Marathonläufer.\n2009 siegte er beim Virginia-Beach-Halbmarathon und wurde Vierter beim Country Music Marathon. 2010 wurde er Sechster beim Tiberias-Marathon und gewann den Dalian-Marathon. 2011 folgte ein Sieg in Tiberias und ein zweiter Platz beim Berlin-Marathon, bei welchem er eigentlich nur als Tempomacher startete."@de	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Stephen_Chemlany_Kwelio"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.description>	"Stephen Kwelio Chemlany is een Keniaans atleet, die is gespecialiseerd in de marathon."@nl	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/index.html?curid=42268265>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://ru.wikipedia.org/wiki/%25D0%25A7%25D0%25B5%25D0%25BC%25D0%25BB%25D0%25B0%25D0%25BD%25D0%25B8,_%25D0%25A1%25D1%2582%25D0%25B8%25D0%25B2%25D0%25B5%25D0%25BD>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://ru.wikipedia.org/wiki/index.html?curid=5151483>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl_title/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_title/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.alias>	"Чемлани, Стивен"@ru	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Stephen_Kwelio"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de_title/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ru/$0427$0435$043C$043B$0430$043D$0438$002C_$0421$0442$0438$0432$0435$043D"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/dataworld/freeq/job_a7c6672a-3218-436d-9199-448dbdeb2124_var_en_wikipedia_org_wiki_Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de_id/5988950"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://nl.wikipedia.org/wiki/Stephen_Chemlany>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.description>	"Stephen Kwelio Chemlany is a Kenyan long-distance runner who competes in the marathon. He has a personal best of 2:06:24 hours for the event.\nChemlany was runner-up at the 2011 Berlin Marathon and came fourth at the 2013 Berlin Marathon. He has won the Dalian Marathon, the Tiberias Marathon and the Macau Marathon. He gained a master's degree in computer science from Iona College in the United States in 2008 and represented the school athletically."@en	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Stephen_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://fr.wikipedia.org/wiki/index.html?curid=8155698>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.11bbwzj0yb>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ru/$0427$0435$043C$043B$0430$043D$0438"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/common.topic.description>	"Stephen Kwelio Chemlany est un athlète kényan, spécialiste des courses de fond."@fr	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl/Stephen_Kwelio_Chemlany"	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Kwelio Chemlany"@en	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/tv.tv_series_episode.season>	<http://rdf.freebase.com/ns/m.0v2zpfr>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/thetvdb/episode/4851860"	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sczbvm>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/tv.tv_series_episode.episode_number>	"8"	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.description>	"Rene and Casey plan to spare no expense in order to fill up their truck; Jarrod and Brandi's Long Beach store becomes the subject of gossip; Ivy's latest score could affect his career."@en	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/tv.tv_series_episode.season_number>	"5"	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/imdb/title/tt3645026"	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/imdb.topic.title_id>	"tt3645026"	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/tv.tv_series_episode>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://www.imdb.com/title/tt3645026/>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/tv.tv_series_episode.air_date>	"2014-04-15"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.01xrzlb>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://thetvdb.com/?tab=episode&seriesid=207621&seasonid=577918&id=4851860>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.name>	"Nuthin' but a G Thang, Rene"@en	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/common.topic.alias>	"Ain't Nuthin' But A \"G\" Thang, Rene"@en	.
+<http://rdf.freebase.com/ns/m.01016v4g>	<http://rdf.freebase.com/ns/tv.tv_series_episode.series>	<http://rdf.freebase.com/ns/m.0fqsgpd>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/common.topic.alias>	"18th Annual European Union Film Festival"@en	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.name>	"2005 Washington D.C. European Union Film Festival"@en	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/common.topic.description>	"The 2005 Washington D.C. European Union Film Festival was held from 11/8/2005 to 11/22/2005."@en	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.film_festival_event>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3shxbhc>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/film.film_festival_event.festival>	<http://rdf.freebase.com/ns/m.0101d6yr>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/time.event.locations>	<http://rdf.freebase.com/ns/m.0341rj>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.film_screening_venue>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.04ktskq>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/time.event>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/time.event.end_date>	"2005-11-22"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/common.topic.topical_webpage>	<http://www1.american.edu/aces/2005events/1108-22festival.htm>	.
+<http://rdf.freebase.com/ns/m.0101d6x0>	<http://rdf.freebase.com/ns/time.event.start_date>	"2005-11-08"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0101h5tp>	<http://rdf.freebase.com/ns/sports.pro_sports_played.athlete>	<http://rdf.freebase.com/ns/m.0ynts39>	.
+<http://rdf.freebase.com/ns/m.0101h5tp>	<http://rdf.freebase.com/ns/sports.pro_sports_played.sport>	<http://rdf.freebase.com/ns/m.06br8>	.
+<http://rdf.freebase.com/ns/m.0101h5tp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/sports.pro_sports_played>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.04kr>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0101hx_q>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.name>	"Rebecca Leighton"@en	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/common.topic.description>	"Rebecca Jane Leighton is a nurse."@en	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.0fd02>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m8>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0101hxzl>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04nt>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.0101hy2k>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/common.topic.alias>	"Rebecca Jane Leighton"@en	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sdqh8g>	.
+<http://rdf.freebase.com/ns/m.0101hwm4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m1>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.deceased_person.place_of_death>	<http://rdf.freebase.com/ns/m.0rmpt>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.02xlh55>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.nationality>	<http://rdf.freebase.com/ns/m.09c7w0>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04mh>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.deceased_person.date_of_death>	"2014-07-06"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.deceased_person>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsd7n>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0114qkyk>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.alias>	"Eugene Hodges"@en	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04nt>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/index.html?curid=43238780>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sk3n9x>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.0fj9f>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.01039bg1>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.description>	"Gene Hodges was an American politician.\nBorn in Cedar Key, Florida, Hodges served in the United States Air Force 1955 to 1958. He served in the Florida House of Representatives as a Democrat from 1972 until 1988. Hodges also served on the Cedar Key City Council. His father W. Randolph Hodges served in the Florida State Senate and his niece Dana Young who also served in the Florida House of Representatives. He died in Cedar Key, Florida."@en	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_id/43238780"	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1936-11-23"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.01039bgf>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.name>	"Gene Hodges"@en	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/Gene_Hodges>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/common.topic.description>	"Gene Hodges was the Mayor of Cedar Key."@en	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.place_of_birth>	<http://rdf.freebase.com/ns/m.0rmpt>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/government.politician.government_positions_held>	<http://rdf.freebase.com/ns/m.011lsz2k>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.key>	"/dataworld/freeq/job_5d369230-3a6b-45ff-945e-9e79b7b0e2a0_var_en_wikipedia_org_wiki_Gene_Hodges"	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_title/Gene_Hodges"	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04m1>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/government.politician.government_positions_held>	<http://rdf.freebase.com/ns/m.0101m2vg>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.schemastaging.government_position_held_extra>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Gene_Hodges"	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/government.politician>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04mq>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.01039bfg>	.
+<http://rdf.freebase.com/ns/m.0101m2vj>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04m8>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.01x3gb5>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.description>	"Deepak Pal is a film editor."@en	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m8>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.alias>	"Late Deepak Pal"@en	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.alias>	"दीपक पॉल"@hi	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.05hj__k>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.name>	"Deepak Pal"@en	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/imdb/name/nm2838614"	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://www.imdb.com/name/nm2838614/>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04nt>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sh6x_g>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.alias>	"स्वर्गीय दीपक पाल"@hi	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.alias>	"Deepak Paul"@en	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0jsg44>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/film.editor.film>	<http://rdf.freebase.com/ns/m.0h55yph>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.editor>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.name>	"दीपक पाल"@hi	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m1>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/film.editor.film>	<http://rdf.freebase.com/ns/m.0crt2q2>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.0jsd7n>	.
+<http://rdf.freebase.com/ns/m.0101r5tv>	<http://rdf.freebase.com/ns/imdb.topic.name_id>	"nm2838614"	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/fictional_universe.fictional_character>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/common.topic.description>	"Julián's father is a fictional character from the 1950 film The Young and the Damned."@en	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.film_character>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/film.film_character.portrayed_in_films>	<http://rdf.freebase.com/ns/m.0k05lp>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.02nsjl9>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/common.topic.alias>	"El padre de Julián"@en	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.name>	"Julián's father"@en	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sgx7h2>	.
+<http://rdf.freebase.com/ns/m.0101zz_q>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04m1>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/common.topic.alias>	"Keesha Annika Myers"@en	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.spouse_s>	<http://rdf.freebase.com/ns/m.01027t46>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.04m8>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.01028sg8>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.04kr>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1978-12-13"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.01028x69>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.name>	"Keesha Myers Wear"@en	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsd7n>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.nationality>	<http://rdf.freebase.com/ns/m.09c7w0>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/common.topic.description>	"Keesha Myers Wear is the wife of David Wear."@en	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/people.person.place_of_birth>	<http://rdf.freebase.com/ns/m.0_vn7>	.
+<http://rdf.freebase.com/ns/m.01027t48>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3shllcd>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.01xryvm>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_title/The_Little_Man_from_Archangel"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.description>	"The Little Man from Archangel, first published in English by Hamish Hamilton in 1957, is a novel by Georges Simenon."@en	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://de.wikipedia.org/wiki/Der_Buchh%E4ndler_von_Archangelsk>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/book.book>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/book.book.genre>	<http://rdf.freebase.com/ns/m.0lsxr>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/The_Little_Man_from_Archangel"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/book.written_work.author>	<http://rdf.freebase.com/ns/m.018w6s>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr_id/7927385"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.description>	"Der Buchhändler von Archangelsk ist ein Roman des belgischen Schriftstellers Georges Simenon. Er entstand vom 21. bis 29. April 1956 in Cannes und wurde im August und September desselben Jahres in der französischen Monatszeitschrift Preuves vorabveröffentlicht. Im Oktober 1956 erschien die Buchausgabe beim Pariser Verlag Presses de la Cité. Die erste deutsche Übersetzung von Hansjürgen Wille und Barbara Klau veröffentlichte 1963 Kiepenheuer & Witsch unter dem Titel Der kleine Mann von Archangelsk. Im Jahr 1978 brachte der Diogenes Verlag eine Neuübersetzung von Alfred Kuoni heraus. Mit der Ausgabe des Jahres 2013 veränderte der Verlag den Titel zu Der Buchhändler von Archangelsk.\nJonas Milk, der Buchhändler einer kleinen französischen Ortschaft, ist ein russischstämmiger Jude aus Archangelsk. Doch seine Heimat waren sein ganzes Leben hindurch die wenigen Häuser um den örtlichen Marktplatz. Als eines Tages seine Frau spurlos verschwindet, fühlt er den aufkeimenden Argwohn seiner Nachbarn, zu denen er sich am Vortag noch uneingeschränkt zugehörig fühlte. Aus Furcht und Scham verstrickt er sich in immer weitere Lügen."@de	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/openlibrary/book/petithom_9202a8c04000641f8000000000146cd8"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr/Le_Petit_Homme_d$0027Arkhangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://de.wikipedia.org/wiki/index.html?curid=7621371>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://fr.wikipedia.org/wiki/index.html?curid=7927385>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/index.html?curid=42336154>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://de.wikipedia.org/wiki/Der_Buchh%25C3%25A4ndler_von_Archangelsk>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de_id/7621371"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/book.written_work>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_id/42336154"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.name>	"The Little Man from Archangel"@en	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/book.written_work.original_language>	<http://rdf.freebase.com/ns/m.02h40lc>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.name>	"Der Buchhändler von Archangelsk"@de	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.alias>	"Le petit homme d'Arkhangelsk"@en	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Der_Buchh$00E4ndler_von_Archangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de_title/Der_Buchh$00E4ndler_von_Archangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/en/petit_homme_darkhangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q5jjswpl>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/dataworld/freeq/job_11d92fd7-f7d1-41d5-9b1d-c703f1d3fa27_var_en_wikipedia_org_wiki_The_Little_Man_from_Archangel"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.name>	"Le Petit Homme d'Arkhangelsk"@fr	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/fr_title/Le_Petit_Homme_d$0027Arkhangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.description>	"Le Petit Homme d'Arkhangelsk est un roman policier de Georges Simenon, publié en 1956 aux Presses de la Cité.\nSimenon écrit ce roman à Golden Gate, Cannes, en avril 1956."@fr	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/The_Little_Man_from_Archangel>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://fr.wikipedia.org/wiki/Le_Petit_Homme_d'Arkhangelsk>	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/de/Der_kleine_Mann_von_Archangelsk"	.
+<http://rdf.freebase.com/ns/m.01028y6z>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3sjpcc0>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/common.topic.description>	"Keith Curry is the mayor of Newport Beach, California."@en	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/people.person.nationality>	<http://rdf.freebase.com/ns/m.09c7w0>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/government.politician>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/government.politician.party>	<http://rdf.freebase.com/ns/m.0102frml>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.name>	"Keith Curry"@en	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/common.topic.alias>	"Keith D. Curry"@en	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.0102fs4v>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m8>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.physically_instantiable>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.animate>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.agent>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.02xlh55>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.04m1>	.
+<http://rdf.freebase.com/ns/m.0102fpt0>	<http://rdf.freebase.com/ns/people.person.spouse_s>	<http://rdf.freebase.com/ns/m.0102fxwv>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.021y6_f>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.01xprbv>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/imdb/title/tt2330748"	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.description>	"The Final Payoff is a crime drama action film directed by Alexander Leontaritis."@en	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.02822>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.021y6_f>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.directed_by>	<http://rdf.freebase.com/ns/m.0v_nz9h>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/imdb.topic.title_id>	"tt2330748"	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsg7q>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.0lsxr>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.social_media_presence>	<https://www.facebook.com/TheFinalPayOff>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsg52>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsg9y>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.021y6zz>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.film>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.language>	<http://rdf.freebase.com/ns/m.0349s>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.02kdv5l>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.021y6zz>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.initial_release_date>	"2013-10-18"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.01xps7l>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.key>	"/source/showtimes/intl/movie/0x2888b7d9ca21bb28"	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://www.imdb.com/title/tt2330748/>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.country>	<http://rdf.freebase.com/ns/m.035qy>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.official_website>	<http://thefinalpayoff.desmida.com/>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsg6m>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/film.film.runtime>	<http://rdf.freebase.com/ns/m.0102y3yh>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.name>	"The Final Payoff"@en	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.alias>	"I teliki apopliromi"@en	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q3shf628>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.01xps7l>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0jsg2m>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0102y34v>	<http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed>	<http://rdf.freebase.com/ns/m.0jsg59>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/aviation.aviation_waypoint.aviation_id>	"ALOYI"	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.alias>	"fix ALOYI"@en	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/location.location.geolocation>	<http://rdf.freebase.com/ns/m.0104_bw6>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.location>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/type.object.name>	"ALOYI"@en	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.alias>	"waypoint ALOYI"@en	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q56fky1h>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.alias>	"ALOYI fix"@en	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://opennav.com/waypoint/US/ALOYI>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.02wt2yf>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/aviation.aviation_waypoint>	.
+<http://rdf.freebase.com/ns/m.0104_bvw>	<http://rdf.freebase.com/ns/common.topic.alias>	"ALOYI waypoint"@en	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/aviation.aviation_waypoint.aviation_id>	"ALUND"	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.alias>	"fix ALUND"@en	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.location>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.alias>	"ALUND fix"@en	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q56frg0g>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.alias>	"waypoint ALUND"@en	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.02wt2yf>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://opennav.com/waypoint/US/ALUND>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/aviation.aviation_waypoint>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/location.location.geolocation>	<http://rdf.freebase.com/ns/m.0104_dkn>	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/type.object.name>	"ALUND"@en	.
+<http://rdf.freebase.com/ns/m.0104_dk9>	<http://rdf.freebase.com/ns/common.topic.alias>	"ALUND waypoint"@en	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://movie.nate.com/movie/movieinfo?cinema_id=57061>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.name>	"블랙 가스펠"@ko	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.key>	"/source/cine21/movie/39915"	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.02822>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.021y6zz>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1q4kl5zx0>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.alias>	"블랙가스펠"@ko	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.key>	"/source/showtimes/local/movie/0xae0fb6f9fe1d9be9"	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.description>	"Black Gospel is a 2013 drama documentary film directed by hisMT Ministry."@en	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.09ny0f>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.name>	"Black Gospel"@en	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_value>	<http://rdf.freebase.com/ns/m.0jsg59>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/film.film>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0jsg2m>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.01xps7l>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.initial_release_date>	"2013-11-14"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.key>	"/source/daum/movieid/70501"	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.country>	<http://rdf.freebase.com/ns/m.06qd3>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=70501>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.03q4nz>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://www.cine21.com/do/movie/detail/main?movie_id=39915>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.rating>	<http://rdf.freebase.com/ns/m.0glj5mf>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.key>	"/source/nate/cinema_id/57061"	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/freebase.valuenotation.has_no_value>	<http://rdf.freebase.com/ns/m.021y6_f>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.runtime>	<http://rdf.freebase.com/ns/m.0104bs24>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.language>	<http://rdf.freebase.com/ns/m.02hwhyv>	.
+<http://rdf.freebase.com/ns/m.0104bnf4>	<http://rdf.freebase.com/ns/film.film.genre>	<http://rdf.freebase.com/ns/m.0jtdp>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.canonical_version>	<http://rdf.freebase.com/ns/m.01ccjq6>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://musicbrainz.org/recording/80d8ccc4-0ca9-4617-896d-9cf9afc3b152>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/183276a4-e423-4113-88ab-5cd52b4e0050"	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/recording/183276a4-e423-4113-88ab-5cd52b4e0050"	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0kpv11>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/recording/80d8ccc4-0ca9-4617-896d-9cf9afc3b152"	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.tracks>	<http://rdf.freebase.com/ns/m.010xx8cg>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.artist>	<http://rdf.freebase.com/ns/m.01nvwr2>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.length>	"166.44"	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://musicbrainz.org/recording/183276a4-e423-4113-88ab-5cd52b4e0050>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.song>	<http://rdf.freebase.com/ns/m.0zhvrs0>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.releases>	<http://rdf.freebase.com/ns/m.030dnhk>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/music.recording>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/common.topic.alias>	"Ma joka paiva toita teen"@en	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/music.recording.tracks>	<http://rdf.freebase.com/ns/m.0km6kf5>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1yg99py1_>	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.name>	"Mä joka päivä töitä teen"@en	.
+<http://rdf.freebase.com/ns/m.0104cx_>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/80d8ccc4-0ca9-4617-896d-9cf9afc3b152"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl_title/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/en/buna_texas"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@pt	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.location>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://sr.wikipedia.org/wiki/%25D0%2591%25D1%2598%25D1%2583%25D0%25BD%25D0%25B0_(%25D0%25A2%25D0%25B5%25D0%25BA%25D1%2581%25D0%25B0%25D1%2581)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna je naseljeno mjesto za statističke potrebe u američkoj saveznoj državi Teksas. Prema popisu stanovništva iz 2010. u njemu je živjelo 2.142 stanovnika."@hr	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@it	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://es.wikipedia.org/wiki/Buna_(Texas)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://sr.wikipedia.org/wiki/index.html?curid=777796>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Buna$002C_Texas"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Buna$002C_TX"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@ca	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.inanimate>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://nl.wikipedia.org/wiki/index.html?curid=1047878>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_id/136190"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://it.wikipedia.org/wiki/index.html?curid=4864242>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.time_zones>	<http://rdf.freebase.com/ns/m.02fqwt>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en/Buna_$0028TX$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.total_residential_addresses>	<http://rdf.freebase.com/ns/m.07cvdqb>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ca/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/en_title/Buna$002C_Texas"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0kpyns>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://ca.wikipedia.org/wiki/index.html?curid=704710>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://pt.wikipedia.org/wiki/index.html?curid=1409578>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_county_place.countyplace_id>	"4824111236"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://es.wikipedia.org/wiki/index.html?curid=4695516>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.alias>	"Buna, Texas"@en	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna è un census-designated place degli Stati Uniti d'America situato nella contea di Jasper dello Stato del Texas.\nLa popolazione era di 2.142 persone al censimento del 2010."@it	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.alias>	"Jasper County / Buna CDP"@en	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.statistical_region.population>	<http://rdf.freebase.com/ns/m.04l_4hs>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.hud_county_place>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/Buna,_Texas>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.people_born_here>	<http://rdf.freebase.com/ns/m.05q4z4c>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://sr.wikipedia.org/wiki/%11%58%43%3D%30_(%22%35%3A%41%30%41)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.alias>	"Buna, Texas"@en	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/it/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.containedby>	<http://rdf.freebase.com/ns/m.07b_l>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl_id/1047878"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@nl	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/nl/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.alias>	"Buna, Texas"@sr	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/es/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.dated_location>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/pt_id/1409578"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://ca.wikipedia.org/wiki/Buna_(Texas)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/es_id/4695516"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://it.wikipedia.org/wiki/Buna_(Texas)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_county_place.county>	<http://rdf.freebase.com/ns/m.0mr7q>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.article>	<http://rdf.freebase.com/ns/m.0104jv>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@es	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna is een plaats in de Amerikaanse staat Texas, en valt bestuurlijk gezien onder Jasper County."@nl	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/pt/Buna"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://hr.wikipedia.org/wiki/index.html?curid=478280>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.ofheo_price_change>	<http://rdf.freebase.com/ns/m.07cvdqs>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.gnis_feature_id>	"1353302"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.total_90_day_vacant_residential_addresses>	<http://rdf.freebase.com/ns/m.07cvdq1>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna is a census-designated place in Jasper County, Texas, United States. The population was 2,142 at the 2010 census."@en	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/hud/countyplace/4824111236"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.bls_unemployment_rate>	<http://rdf.freebase.com/ns/m.07cvdql>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/sr/Buna$002C_Texas"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/sr/$0411$0458$0443$043D$0430_$0028$0422$0435$043A$0441$0430$0441$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://nl.wikipedia.org/wiki/Buna_(Texas)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@hr	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.estimated_number_of_mortgages>	<http://rdf.freebase.com/ns/m.07cvdpq>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna es un lugar designado por el censo ubicado en el condado de Jasper en el estado estadounidense de Texas. En el Censo de 2010 tenía una población de 2.142 habitantes y una densidad poblacional de 137,45 personas por km²."@es	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/sr_title/$0411$0458$0443$043D$0430_$0028$0422$0435$043A$0441$0430$0441$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Б�?�?на"@sr	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna é uma Região censo-designada localizada no estado norte-americano do Texas, no Condado de Jasper."@pt	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.area>	"15.539928662"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/hr/Buna_$0028Teksas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_county_place.place>	<http://rdf.freebase.com/ns/m.0104jp>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.statistical_region>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/location.census_designated_place>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/hr_title/Buna_$0028Teksas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.containedby>	<http://rdf.freebase.com/ns/m.0mr7q>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:1353302>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/pt_title/Buna"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/es_title/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://hr.wikipedia.org/wiki/Buna_(Teksas)>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://pt.wikipedia.org/wiki/Buna>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.estimated_number_foreclosures>	<http://rdf.freebase.com/ns/m.07cvdpg>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Buna és una concentració de població designada pel cens dels Estats Units a l'estat de Texas. Segons el cens del 2000 tenia una població de 2.269 habitants."@ca	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.hud_foreclosure_area.hhuniv>	<http://rdf.freebase.com/ns/m.07cvdp7>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/gnis/1353302"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ca_title/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/sr_id/777796"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.name>	"Buna"@en	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://en.wikipedia.org/wiki/index.html?curid=136190>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/ca_id/704710"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.description>	"Б�?�?на �?е на�?ељено ме�?то без админи�?тративног �?тат�?�?а �? америчко�? �?авезно�? држави Тек�?а�?."@sr	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/it_id/4864242"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.1257vtr2k>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/hr_id/478280"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/location.location.geolocation>	<http://rdf.freebase.com/ns/m.0kh84q>	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/type.object.key>	"/wikipedia/it_title/Buna_$0028Texas$0029"	.
+<http://rdf.freebase.com/ns/m.0104jp>	<http://rdf.freebase.com/ns/common.topic.image>	<http://rdf.freebase.com/ns/m.029cg6c>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.releases>	<http://rdf.freebase.com/ns/m.032kg_j>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.canonical_version>	<http://rdf.freebase.com/ns/m.0x3rqh>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/recording/239f872d-0432-49f5-bd19-e8b49b90b230"	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.non_agent>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/recording/1e1d579e-a3e0-4f9f-af03-7452820fab0b"	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/music.recording>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.name>	"Brothers and Sisters"@en	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/common.topic.notable_types>	<http://rdf.freebase.com/ns/m.0kpv11>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://musicbrainz.org/recording/1e1d579e-a3e0-4f9f-af03-7452820fab0b>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.artist>	<http://rdf.freebase.com/ns/m.01q6hj3>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/1e1d579e-a3e0-4f9f-af03-7452820fab0b"	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/common.topic.alias>	"Brothers and Sisters"@en	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/common.topic>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.tracks>	<http://rdf.freebase.com/ns/m.0l0dbpt>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/base.type_ontology.abstract>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/common.topic.topic_equivalent_webpage>	<http://musicbrainz.org/recording/239f872d-0432-49f5-bd19-e8b49b90b230>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/type.object.key>	"/authority/musicbrainz/239f872d-0432-49f5-bd19-e8b49b90b230"	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.tracks>	<http://rdf.freebase.com/ns/m.0k_drg0>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/common.topic.notable_for>	<http://rdf.freebase.com/ns/g.12ml1mqtt>	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.length>	"274.2"	.
+<http://rdf.freebase.com/ns/m.0104qhv>	<http://rdf.freebase.com/ns/music.recording.releases>	<http://rdf.freebase.com/ns/m.032956b>	.

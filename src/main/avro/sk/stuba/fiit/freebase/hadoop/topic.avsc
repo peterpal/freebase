@@ -1,0 +1,9 @@
+{"namespace": "sk.stuba.fiit.freebase.hadoop",
+ "type": "record",
+ "name": "TopicAvro",
+ "fields": [
+     {"name": "title", "type": "string"},
+     {"name": "types",  "type" : { "type": "array", "items" : "string" } },
+     {"name": "alts", "type" : { "type": "array", "items" : "string"} }
+ ]
+}
